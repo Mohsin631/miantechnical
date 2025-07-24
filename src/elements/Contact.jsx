@@ -105,6 +105,7 @@ class Contact extends Component{
                 <div className="rn-contact-map-area position-relative">
                     <div style={{ height: '650px', width: '100%' }}>
                         <GoogleMapReact
+                        bootstrapURLKeys={{ key: "" }}
                         defaultCenter={this.props.center}
                         defaultZoom={this.props.zoom}
                         >
