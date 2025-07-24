@@ -1,220 +1,106 @@
 import React, { Component } from "react";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 
-import testimonialImg1 from "../assets/images/client/testimonial-1.jpg";
-import testimonialImg2 from "../assets/images/client/testimonial-2.jpg";
-import testimonialImg3 from "../assets/images/client/testimonial-3.jpg";
-import testimonialImg4 from "../assets/images/client/testimonial-4.jpg";
-import testimonialImg5 from "../assets/images/client/testimonial-5.jpg";
-import testimonialImg6 from "../assets/images/client/testimonial-6.jpg";
-import testimonialImg7 from "../assets/images/client/testimonial-7.jpg";
-import testimonialImg8 from "../assets/images/client/testimonial-8.jpg";
-
 class Testimonial extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      tabIndex: 0,
+    };
+    this.autoPlayInterval = null;
+  }
+
+  componentDidMount() {
+    this.startAutoPlay();
+  }
+
+  componentWillUnmount() {
+    clearInterval(this.autoPlayInterval);
+  }
+
+  startAutoPlay() {
+    this.autoPlayInterval = setInterval(() => {
+      this.setState((prevState) => ({
+        tabIndex: (prevState.tabIndex + 1) % this.testimonials.length,
+      }));
+    }, 4000); // ✅ Change slide every 4 seconds
+  }
+
+  testimonials = [
+    {
+      text: "The team exceeded our expectations! Their innovative IT solutions streamlined our processes and boosted productivity significantly.",
+      name: "Alex Johnson",
+      role: "CTO, TechNova Solutions",
+    },
+    {
+      text: "Outstanding engineering expertise! They delivered our project ahead of schedule without compromising on quality.",
+      name: "Maria Rodriguez",
+      role: "Head of Operations, BuildPro Inc.",
+    },
+    {
+      text: "Their cloud migration services saved us thousands in infrastructure costs while improving system reliability.",
+      name: "David Lee",
+      role: "IT Director, SkyNet Corp.",
+    },
+    {
+      text: "From concept to deployment, the mobile app development was seamless. Our users love the intuitive design!",
+      name: "Sophia Williams",
+      role: "Product Manager, AppFlow",
+    },
+    {
+      text: "Cybersecurity was a major concern for us. Their proactive approach gave us complete peace of mind.",
+      name: "Michael Brown",
+      role: "CEO, SecureData Inc.",
+    },
+    {
+      text: "Our partnership has been phenomenal. Their project management expertise ensured timely delivery every time.",
+      name: "Emma Davis",
+      role: "COO, InnovateX",
+    },
+    {
+      text: "Exceptional service and support! They were available 24/7 during critical stages of our project rollout.",
+      name: "James Carter",
+      role: "Managing Director, AlphaTech",
+    },
+    {
+      text: "Their engineering solutions are truly world-class. Highly recommend for complex industrial projects.",
+      name: "Olivia Martinez",
+      role: "VP Engineering, Structura",
+    },
+  ];
+
   render() {
     return (
-      <React.Fragment>
-        <div className="row">
-          <div className="col-lg-12">
-            <Tabs>
-              <TabPanel>
-                <div className="rn-testimonial-content text-center">
-                  <div className="inner">
-                    <p>
-                      Aklima The standard chunk of Lorem Ipsum used since the
-                      1500s is reproduced below for those interested. Sections
-                      Bonorum et Malorum original.
-                    </p>
-                  </div>
-                  <div className="author-info">
-                    <h6>
-                      <span>Aklima </span> - COO, AMERIMAR ENTERPRISES, INC.
-                    </h6>
-                  </div>
+      <div className="rn-testimonial-wrapper">
+        <Tabs selectedIndex={this.state.tabIndex} onSelect={(index) => this.setState({ tabIndex: index })}>
+          {/* Testimonial Panels */}
+          {this.testimonials.map((item, index) => (
+            <TabPanel key={index}>
+              <div className="rn-testimonial-content text-center fade-in">
+                <div className="inner">
+                  <p>“{item.text}”</p>
                 </div>
-              </TabPanel>
+                <div className="author-info">
+                  <h6>
+                    <span>{item.name} </span> - {item.role}
+                  </h6>
+                </div>
+              </div>
+            </TabPanel>
+          ))}
 
-              <TabPanel>
-                <div className="rn-testimonial-content text-center">
-                  <div className="inner">
-                    <p>
-                      Fatima Asrafy standard chunk of Lorem Ipsum used since the
-                      1500s is reproduced below for those interested. Sections
-                      Bonorum et Malorum original.
-                    </p>
-                  </div>
-                  <div className="author-info">
-                    <h6>
-                      <span>Fatima Asrafy </span> - COO, AMERIMAR ENTERPRISES,
-                      INC.
-                    </h6>
-                  </div>
-                </div>
-              </TabPanel>
-              <TabPanel>
-                <div className="rn-testimonial-content text-center">
-                  <div className="inner">
-                    <p>
-                      Jannat Tumpa The standard chunk of Lorem Ipsum used since
-                      the 1500s is reproduced below for those interested.
-                      Sections Bonorum et Malorum original.
-                    </p>
-                  </div>
-                  <div className="author-info">
-                    <h6>
-                      <span>Jannat Tumpa </span> - COO, AMERIMAR ENTERPRISES,
-                      INC.
-                    </h6>
-                  </div>
-                </div>
-              </TabPanel>
-
-              <TabPanel>
-                <div className="rn-testimonial-content text-center">
-                  <div className="inner">
-                    <p>
-                      Standard chunk of Lorem Ipsum used since the 1500s is
-                      reproduced below for those interested. Sections Bonorum et
-                      Malorum original.
-                    </p>
-                  </div>
-                  <div className="author-info">
-                    <h6>
-                      <span>Johns Due </span> - COO, AMERIMAR ENTERPRISES, INC.
-                    </h6>
-                  </div>
-                </div>
-              </TabPanel>
-              <TabPanel>
-                <div className="rn-testimonial-content text-center">
-                  <div className="inner">
-                    <p>
-                      John Doe The standard chunk of Lorem Ipsum used since the
-                      1500s is reproduced below for those interested. Sections
-                      Bonorum et Malorum original.
-                    </p>
-                  </div>
-                  <div className="author-info">
-                    <h6>
-                      <span>John Doe </span> - COO, AMERIMAR ENTERPRISES, INC.
-                    </h6>
-                  </div>
-                </div>
-              </TabPanel>
-
-              <TabPanel>
-                <div className="rn-testimonial-content text-center">
-                  <div className="inner">
-                    <p>
-                      Chunk of Lorem Ipsum used since the 1500s is reproduced
-                      below for those interested. Sections Bonorum et Malorum
-                      original.
-                    </p>
-                  </div>
-                  <div className="author-info">
-                    <h6>
-                      <span>Amar Orthi </span> - COO, AMERIMAR ENTERPRISES, INC.
-                    </h6>
-                  </div>
-                </div>
-              </TabPanel>
-              <TabPanel>
-                <div className="rn-testimonial-content text-center">
-                  <div className="inner">
-                    <p>
-                      The standard chunk of Lorem Ipsum used since the 1500s is
-                      reproduced below for those interested. Sections Bonorum et
-                      Malorum original.
-                    </p>
-                  </div>
-                  <div className="author-info">
-                    <h6>
-                      <span>Fatima Ma </span> - COO, AMERIMAR ENTERPRISES, INC.
-                    </h6>
-                  </div>
-                </div>
-              </TabPanel>
-
-              <TabPanel>
-                <div className="rn-testimonial-content text-center">
-                  <div className="inner">
-                    <p>
-                      Lorem Ipsum used since the 1500s is reproduced below for
-                      those interested. Sections Bonorum et Malorum original.
-                    </p>
-                  </div>
-                  <div className="author-info">
-                    <h6>
-                      <span>JON CUMMINS </span> - COO, AMERIMAR ENTERPRISES,
-                      INC.
-                    </h6>
-                  </div>
-                </div>
-              </TabPanel>
-
-              <TabList className="testimonial-thumb-wrapper">
-                <Tab>
-                  <div className="testimonial-thumbnai">
-                    <div className="thumb">
-                      <img src={testimonialImg1} alt="Testimonial Images" />
-                    </div>
-                  </div>
-                </Tab>
-                <Tab>
-                  <div className="testimonial-thumbnai">
-                    <div className="thumb">
-                      <img src={testimonialImg2} alt="Testimonial Images" />
-                    </div>
-                  </div>
-                </Tab>
-                <Tab>
-                  <div className="testimonial-thumbnai">
-                    <div className="thumb">
-                      <img src={testimonialImg3} alt="Testimonial Images" />
-                    </div>
-                  </div>
-                </Tab>
-                <Tab>
-                  <div className="testimonial-thumbnai">
-                    <div className="thumb">
-                      <img src={testimonialImg4} alt="Testimonial Images" />
-                    </div>
-                  </div>
-                </Tab>
-                <Tab>
-                  <div className="testimonial-thumbnai">
-                    <div className="thumb">
-                      <img src={testimonialImg5} alt="Testimonial Images" />
-                    </div>
-                  </div>
-                </Tab>
-                <Tab>
-                  <div className="testimonial-thumbnai">
-                    <div className="thumb">
-                      <img src={testimonialImg6} alt="Testimonial Images" />
-                    </div>
-                  </div>
-                </Tab>
-                <Tab>
-                  <div className="testimonial-thumbnai">
-                    <div className="thumb">
-                      <img src={testimonialImg7} alt="Testimonial Images" />
-                    </div>
-                  </div>
-                </Tab>
-                <Tab>
-                  <div className="testimonial-thumbnai">
-                    <div className="thumb">
-                      <img src={testimonialImg8} alt="Testimonial Images" />
-                    </div>
-                  </div>
-                </Tab>
-              </TabList>
-            </Tabs>
-          </div>
-        </div>
-      </React.Fragment>
+          {/* Dot Navigation */}
+          <TabList className="testimonial-dot-nav">
+            {this.testimonials.map((_, i) => (
+              <Tab key={i}>
+                <span className={`dot ${this.state.tabIndex === i ? "active" : ""}`}></span>
+              </Tab>
+            ))}
+          </TabList>
+        </Tabs>
+      </div>
     );
   }
 }
+
 export default Testimonial;
