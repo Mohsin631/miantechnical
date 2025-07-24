@@ -1,100 +1,60 @@
-import React, { Component } from "react";
-import {
-  FaTwitter,
-  FaInstagram,
-  FaFacebookF,
-  FaLinkedinIn,
-} from "react-icons/fa";
+import React from "react";
+import "../../assets/scss/footer/footer.css";
+import { Mail, Phone, MapPin, Facebook, Twitter, Instagram } from "lucide-react";
+import CTASection from '../../component/cta/CTASection';
+import logo from "../../assets/images/logo/mt-logo.png";
 
-const SocialShare = [
-  { Social: <FaFacebookF />, link: "https://www.facebook.com/" },
-  { Social: <FaLinkedinIn />, link: "https://www.linkedin.com/" },
-  { Social: <FaInstagram />, link: "https://www.instagram.com/" },
-  { Social: <FaTwitter />, link: "https://twitter.com/" },
-];
+const Footer = () => {
+  return (
+    
+    <div>
+      <CTASection/>
+    <footer className="footer">
+      <div className="footer-container">
+        
+        {/* Left: Logo and Description */}
+        <div className="footer-column">
+          <img src={logo} alt="Logo" className="footer-logo" />
 
-class Footer extends Component {
-  render() {
-    return (
-      <React.Fragment>
-        <footer className="footer-area">
-          <div className="footer-wrapper">
-            <div className="row align-items-end row--0">
-              <div className="col-lg-6">
-                <div className="footer-left">
-                  <div className="inner">
-                    <span>Ready To Do This</span>
-                    <h2>
-                      Let's get <br /> to work
-                    </h2>
-                    <a className="rn-button-style--2" href="/contact">
-                      <span>Contact Us</span>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-6">
-                <div className="footer-right" data-black-overlay="6">
-                  <div className="row">
-                    {/* Start Single Widget  */}
-                    <div className="col-lg-6 col-sm-6 col-12">
-                      <div className="footer-link">
-                        <h4>Quick Link</h4>
-                        <ul className="ft-link">
-                          <li>
-                            <a href="/portfolio">Work</a>
-                          </li>
-                          <li>
-                            <a href="/about">About</a>
-                          </li>
-                          <li>
-                            <a href="/contact">Let's Talk</a>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                    {/* End Single Widget  */}
-                    {/* Start Single Widget  */}
-                    <div className="col-lg-6 col-sm-6 col-12 mt_mobile--30">
-                      <div className="footer-link">
-                        <h4>Say Hello</h4>
-                        <ul className="ft-link">
-                          <li>
-                            <a href="mailto:info@miantechnical.net">
-                              info@miantechnical.net
-                            </a>
-                          </li>
-                        
-                        </ul>
+          <p className="footer-description">
+            Building innovation through technology. Your vision, our code.
+          </p>
+        </div>
 
-                        <div className="social-share-inner">
-                          <ul className="social-share social-style--2 d-flex justify-content-start liststyle mt--15">
-                            {SocialShare.map((val, i) => (
-                              <li key={i}>
-                                <a href={`${val.link}`}>{val.Social}</a>
-                              </li>
-                            ))}
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-                    {/* End Single Widget  */}
+        {/* Middle: Navigation */}
+        <div className="footer-column">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/services">Services</a></li>
+            <li><a href="/projects">Projects</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/contact">Contact</a></li>
+          </ul>
+        </div>
 
-                    <div className="col-lg-12">
-                      <div className="copyright-text">
-                        <p>
-                          Copyright © 2025 Mian technical. All Rights Reserved.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+        {/* Right: Contact and Socials */}
+        <div className="footer-column">
+          <h4>Contact</h4>
+          <p><Mail size={16} /> info@dhsolutions.com</p>
+          <p><Phone size={16} /> +92 300 1234567</p>
+          <p><MapPin size={16} /> Bahria Enclave, Islamabad</p>
+
+          <div className="footer-socials">
+            <a href="#"><Facebook size={18} /></a>
+            <a href="#"><Twitter size={18} /></a>
+            <a href="#"><Instagram size={18} /></a>
           </div>
-        </footer>
-      </React.Fragment>
-    );
-  }
-}
+        </div>
+      </div>
+
+      <div className="footer-bottom">
+        © {new Date().getFullYear()} Mian Technical Incorporated. All rights reserved.
+      </div>
+
+    </footer>
+    </div>
+  );
+};
+
 export default Footer;

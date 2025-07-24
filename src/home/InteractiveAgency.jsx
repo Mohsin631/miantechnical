@@ -15,6 +15,7 @@ import Header from "../component/header/Header";
 import FooterTwo from "../component/footer/Footer";
 import VideoModal from "../blocks/VideoModal";
 import BrandTwo from "../elements/BrandTwo";
+import homeVideo from '../assets/video/home-video.mp4'; // Adjust path
 
 import about from "../assets/images/about/about-3.jpg";
 import bgImg from "../assets/images/bg/bg-image-26.jpg";
@@ -123,7 +124,7 @@ const ServiceList = [
 const InteractiveAgency = () => {
   return (
     <>
-      <Helmet pageTitle="Our Services" />
+      <Helmet pageTitle="Home" />
       <Header />
 
       {/* Start Slider Area */}
@@ -267,23 +268,127 @@ const InteractiveAgency = () => {
       </div>
       {/* End Service Area */}
 
-      {/* Start Video Area */}
-      <div className="rn-section pb--120 bg_color--1">
-        <div className="container">
-          <div className="row sercice-details-content align-items-center">
-            <div className="col-lg-12">
-              <div className="thumb position-relative">
-                <img className="w-100" src={bgImg} alt="Service Images" />
-                <VideoModal />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      {/* End Video Area */}
+  
+   {/* Start Video Area */}
+<div className="video-section">
+  <div className="video-wrapper">
+    <video
+      className="background-video"
+      autoPlay
+      loop
+      muted
+      playsInline
+    >
+      <source src={homeVideo} type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+    <div className="video-overlay-content">
+      <h2 className="video-title">Elevate Your Digital Experience</h2>
+      <p className="video-subtitle">Immerse yourself in high-impact visuals and seamless performance</p>
+      <button className="video-cta-button">Get Started</button>
+    </div>
+  </div>
+
+  <style>{`
+    .video-section {
+      position: relative;
+      width: 100%;
+      height: 100vh;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #000;
+    }
+
+    .video-wrapper {
+      width: 100%;
+      height: 100%;
+      position: relative;
+    }
+
+    .background-video {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      filter: brightness(0.6);
+    }
+
+    .video-overlay-content {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      color: #fff;
+      z-index: 2;
+      padding: 40px;
+      background: rgba(0, 0, 0, 0.4);
+      backdrop-filter: blur(8px);
+      border-radius: 16px;
+      box-shadow: 0 8px 30px rgba(0,0,0,0.5);
+      max-width: 90%;
+    }
+
+    .video-title {
+      font-size: 48px;
+      font-weight: bold;
+      margin-bottom: 20px;
+      line-height: 1.2;
+       color: #fff;
+    }
+
+    .video-subtitle {
+      font-size: 20px;
+      margin-bottom: 30px;
+      opacity: 0.85;
+      color: #fff;
+    }
+
+    .video-cta-button {
+      padding: 14px 36px;
+      background: linear-gradient(135deg, #eb1d27, #eb1d27);
+      border: none;
+      border-radius: 10px;
+      color: #fff;
+      font-size: 16px;
+      font-weight: 600;
+      cursor: pointer;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+      transition: all 0.3s ease;
+    }
+
+    .video-cta-button:hover {
+      background: linear-gradient(135deg, #ffffffffrgba(255, 255, 255, 1)15);
+      transform: scale(1.05);
+    }
+
+    @media (max-width: 768px) {
+      .video-title {
+        font-size: 28px;
+      }
+
+      .video-subtitle {
+        font-size: 16px;
+      }
+
+      .video-cta-button {
+        padding: 12px 24px;
+        font-size: 14px;
+      }
+
+      .video-overlay-content {
+        padding: 24px;
+        border-radius: 12px;
+      }
+    }
+  `}</style>
+</div>
+{/* End Video Area */}
+
 
       {/* Start Brand Area */}
-      <div className="rn-brand-area pb--120 bg_color--1">
+      <div className="rn-brand-area pb--120 pt--120 bg_color--1">
         <div className="container">
           <div className="row">
             <div className="col-lg-12">

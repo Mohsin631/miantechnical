@@ -6,6 +6,7 @@ import { FiChevronUp } from "react-icons/fi";
 import Header from "../component/header/Header";
 import Footer from "../component/footer/Footer";
 import ContactThree from "../elements/contact/ContactThree";
+  import CTASection from '../component/cta/CTASection';
 
 import contactImg from "../assets/images/about/about-6.jpg";
 
@@ -46,8 +47,9 @@ const ContactForm = () => {
           </ScrollToTop>
         </div>
         {/* End Back To Top */}
-
+       
         {/* Start Footer Area  */}
+    
         <Footer />
         {/* End Footer Area  */}
       </>

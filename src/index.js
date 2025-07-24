@@ -43,7 +43,6 @@ import BlogDetails from "./elements/BlogDetails";
 import error404 from "./elements/error404";
 
 // Blocks Layout
-
 import Team from "./blocks/Team";
 import Counters from "./blocks/Counters";
 import Testimonial from "./blocks/Testimonial";
