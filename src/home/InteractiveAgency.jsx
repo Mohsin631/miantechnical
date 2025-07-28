@@ -1,6 +1,7 @@
 import React from "react";
 import { ProgressBar } from "react-bootstrap";
 import Helmet from "../component/common/Helmet";
+import { Link } from 'react-router-dom';
 import ScrollToTop from "react-scroll-up";
 import Slider from "react-slick";
 import { slideSlick } from "../page-demo/script";
@@ -285,8 +286,9 @@ const InteractiveAgency = () => {
     <div className="video-overlay-content">
       <h2 className="video-title">Elevate Your Digital Experience</h2>
       <p className="video-subtitle">Immerse yourself in high-impact visuals and seamless performance</p>
-      <button className="video-cta-button">Get Started</button>
-    </div>
+      <Link to="/contact">
+    <button className="video-cta-button">Get Started</button>
+  </Link>    </div>
   </div>
 
   <style>{`

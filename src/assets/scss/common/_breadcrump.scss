@@ -8,6 +8,11 @@
     }
 }
 
+.rn-page-title-area{
+    backdrop-filter: blur(1px);
+    -webkit-backdrop-filter: blur(1px);
+}
+
 @media screen and (min-width: 992px) {
     .breadcrumb-item-22 {
       font-size: 22px !important;
@@ -81,7 +86,7 @@
     p {
         font-size: 22px;
         line-height: 27px;
-        color: #c6c9d8;
+        color: #ffffff;
     }
 }
 

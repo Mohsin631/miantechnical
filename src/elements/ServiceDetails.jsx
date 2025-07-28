@@ -67,7 +67,7 @@ const ServiceDetails = () => {
                         <div className="thumb">
                           <img
                             className="w-100"
-                            src={serviceImg}
+                            src={service.image1}
                             alt="Service Images"
                           />
                         </div>
@@ -113,7 +113,7 @@ const ServiceDetails = () => {
                         <div className="thumb position-relative">
                           <img
                             className="w-100"
-                            src={serviceImg2}
+                            src={service.image2}
                             alt="Service Images"
                           />
                         

@@ -4,9 +4,14 @@ import {
     FiUsers,
     FiMonitor,
   } from "react-icons/fi";
+
+  
+import serviceImg from "../assets/images/service/service-01.png";
+import serviceImg2 from "../assets/images/service/service-02.png";  
   
   export const servicesData = [
-    {
+    { image1: serviceImg,
+      image2: serviceImg2,
       category: "IT",
       slug: "it-consulting",
       title: "IT Consulting",
@@ -36,6 +41,8 @@ import {
       ]
     },
     {
+      image1: serviceImg,
+      image2: serviceImg2,
       category: "IT",
       slug: "custom-software-development",
       title: "Custom Software Development",
@@ -63,6 +70,8 @@ import {
       ]
     },
     {
+      image1: serviceImg,
+      image2: serviceImg2,
       category: "IT",
       slug: "digital-marketing-solutions",
       title: "Digital Marketing Solutions",
@@ -88,7 +97,8 @@ import {
         "Continuous optimization for better ROI"
       ]
     },
-    {
+    { image1: serviceImg,
+      image2: serviceImg2,
       category: "IT",
       slug: "mobile-app-development",
       title: "Mobile App Development",
@@ -113,7 +123,8 @@ import {
         "App deployment and updates"
       ]
     },
-    {
+    { image1: serviceImg,
+      image2: serviceImg2,
       category: "IT",
       slug: "cloud-solutions",
       title: "Cloud Solutions",
@@ -140,7 +151,8 @@ import {
         "Ongoing monitoring and support"
       ]
     },
-    {
+    { image1: serviceImg,
+      image2: serviceImg2,
       category: "IT",
       slug: "cybersecurity-services",
       title: "Cybersecurity Services",
@@ -169,7 +181,8 @@ import {
     },
   
     // ---------------- Engineering Services ----------------
-    {
+    { image1: serviceImg,
+      image2: serviceImg2,
       category: "Engineering",
       slug: "mechanical-engineering",
       title: "Mechanical Engineering",
@@ -196,7 +209,8 @@ import {
         "Prototype and final implementation"
       ]
     },
-    {
+    { image1: serviceImg,
+      image2: serviceImg2,
       category: "Engineering",
       slug: "electrical-engineering",
       title: "Electrical Engineering",
@@ -222,7 +236,8 @@ import {
         "Final commissioning and support"
       ]
     },
-    {
+    { image1: serviceImg,
+      image2: serviceImg2,
       category: "Engineering",
       slug: "civil-structural-engineering",
       title: "Civil & Structural Engineering",
@@ -249,7 +264,8 @@ import {
         "Perform inspections and quality checks"
       ]
     },
-    {
+    { image1: serviceImg,
+      image2: serviceImg2,
       category: "Engineering",
       slug: "product-design-prototyping",
       title: "Product Design & Prototyping",
@@ -276,7 +292,8 @@ import {
         "Finalize design for manufacturing"
       ]
     },
-    {
+    { image1: serviceImg,
+      image2: serviceImg2,
       category: "Engineering",
       slug: "automation-control-systems",
       title: "Automation & Control Systems",
@@ -303,7 +320,8 @@ import {
         "Ongoing monitoring and optimization"
       ]
     },
-    {
+    { image1: serviceImg,
+      image2: serviceImg2,
       category: "Engineering",
       slug: "project-management-consultancy",
       title: "Project Management & Consultancy",

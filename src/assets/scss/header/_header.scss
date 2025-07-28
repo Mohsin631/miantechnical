@@ -1,6 +1,29 @@
 /*=====================
     Header Area 
 =======================*/
+@media (max-width: 992px) {
+    .header-wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      
+      .header-left,
+      .header-right {
+        display: flex;
+        align-items: center;
+      }
+      
+      .humberger-menu {
+        margin-left: auto; /* pushes it to the right */
+      }
+      
+      .logo img {
+        max-height: 50px; /* optional: adjust logo size */
+      }
+      
+  }
+  
 
 .header-area{
     &.header--transparent {
@@ -17,8 +40,8 @@
             padding-right: 30px;
         }
         @media #{$sm-layout} {
-            padding-left: 30px;
-            padding-right: 30px;
+            padding-left: 20px;
+            padding-right: 20px;
         }
     }
     .header-wrapper {
@@ -91,7 +114,7 @@
             a {
                 img {
                     @media #{$sm-layout} {
-                        width: 300px;
+                        width: 250px;
                     }
                 }
             }
