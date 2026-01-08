@@ -1,0 +1,109 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "services": "Services",
+    "projects": "Projets",
+    "about": "À propos",
+    "contact": "Contact"
+  },
+  "footer": {
+    "cta": {
+      "boxTitle": "Donnez vie à votre vision",
+      "boxSubtitle": "Nous concevons et développons des expériences numériques évolutives, performantes et élégantes pour les startups et les entreprises.",
+      "btnText": "Construisons ensemble"
+    },
+    "description": "Construire l’innovation grâce à la technologie. Votre vision, notre code.",
+    "quickLinks": {
+      "title": "Liens rapides"
+    },
+    "contact": {
+      "title": "Contact",
+      "email": "info@miantechnical.net",
+      "phone": "+1 (780) 800-8561",
+      "location": "Saskatoon, Canada"
+    },
+    "copyright": "Mian Technical Incorporated. Tous droits réservés."
+  },
+  "home": {
+    "meta": {
+      "pageTitle": "Accueil"
+    },
+    "hero": {
+      "category": "Mian Technical",
+      "title": "Des solutions IT et d’ingénierie de pointe",
+      "description": "Nous proposons des services technologiques et d’ingénierie innovants qui améliorent l’efficacité, favorisent la croissance et accélèrent la transformation digitale.",
+      "buttonText": "Nous contacter"
+    },
+    "about": {
+      "title": "Qui sommes-nous",
+      "description": "Nous sommes un partenaire de confiance en solutions technologiques et d’ingénierie, dédié à accompagner les entreprises grâce à des innovations de pointe. Notre mission est de fournir des services IT transformateurs et une expertise en ingénierie afin d’améliorer l’efficacité, stimuler la croissance et créer un impact durable pour nos clients dans le monde entier.",
+      "coreStrengthsTitle": "Nos points forts",
+      "strengths": {
+        "designUx": "Design innovant & UX",
+        "engineeringPM": "Ingénierie & gestion de projet",
+        "marketing": "Stratégie de marketing digital",
+        "softwareApps": "Développement logiciel & applications sur mesure"
+      }
+    },
+    "services": {
+      "title": "Nos services",
+      "subtitle": "Nous proposons une large gamme de services IT et d’ingénierie conçus pour renforcer votre entreprise grâce à l’innovation, la sécurité et la croissance.",
+      "items": {
+        "itConsulting": {
+          "title": "Conseil IT",
+          "description": "Conseil technologique stratégique pour aligner les solutions IT sur vos objectifs business."
+        },
+        "customSoftware": {
+          "title": "Développement logiciel sur mesure",
+          "description": "Applications personnalisées pour optimiser les processus et créer de la valeur."
+        },
+        "digitalMarketing": {
+          "title": "Solutions de marketing digital",
+          "description": "Stratégies innovantes pour renforcer votre marque et engager vos clients."
+        },
+        "mobileApp": {
+          "title": "Développement d’applications mobiles",
+          "description": "Applications multiplateformes avec une UI intuitive et une expérience fluide."
+        },
+        "cloud": {
+          "title": "Infrastructure & services cloud",
+          "description": "Solutions cloud sécurisées et évolutives pour plus de flexibilité et d’efficacité."
+        },
+        "cybersecurity": {
+          "title": "Cybersécurité & conformité",
+          "description": "Solutions robustes pour protéger les données et assurer la conformité réglementaire."
+        },
+        "mechanical": {
+          "title": "Services d’ingénierie mécanique",
+          "description": "Conception, analyse et optimisation de systèmes mécaniques pour garantir performance et fiabilité."
+        },
+        "electrical": {
+          "title": "Solutions d’ingénierie électrique",
+          "description": "Systèmes électriques, automatisation et conceptions pour projets industriels et commerciaux."
+        },
+        "civil": {
+          "title": "Ingénierie civile & structurelle",
+          "description": "Conception structurelle complète et planification de projet pour des infrastructures durables."
+        },
+        "productDesign": {
+          "title": "Design produit & prototypage",
+          "description": "Développement produit de bout en bout, du concept au prototype fonctionnel."
+        },
+        "automation": {
+          "title": "Automatisation & systèmes de contrôle",
+          "description": "Solutions d’automatisation intelligentes pour améliorer l’efficacité et réduire les arrêts."
+        },
+        "projectManagement": {
+          "title": "Gestion de projet & conseil en ingénierie",
+          "description": "Planification, exécution et conseil experts pour assurer la réussite de vos projets."
+        }
+      }
+    },
+    "video": {
+      "title": "Améliorez votre expérience digitale",
+      "subtitle": "Plongez dans des visuels percutants et une performance fluide",
+      "buttonText": "Commencer",
+      "fallback": "Votre navigateur ne prend pas en charge la vidéo."
+    }
+  }
+}

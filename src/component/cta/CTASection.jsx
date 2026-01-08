@@ -1,14 +1,17 @@
 import React from "react";
 import "../../assets/scss/cta/cta.css";
+import { useTranslation } from "react-i18next";
 
 const CTASection = () => {
+    const { t } = useTranslation();
+  
   return (
     <section className="modern-cta">
       <div className="cta-overlay">
         <div className="cta-content">
-          <h2>Bring Your Vision to Life</h2>
-          <p>We design and build scalable, powerful, and beautiful digital experiences for startups and enterprises.</p>
-          <a href="/contact" className="cta-btn">Let's Build Together</a>
+          <h2> {t("footer.cta.boxTitle")}</h2>
+          <p> {t("footer.cta.boxSubtitle")}</p>
+          <a href="/contact" className="cta-btn"> {t("footer.cta.btnText")}</a>
         </div>
       </div>
     </section>

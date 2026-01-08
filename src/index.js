@@ -4,6 +4,7 @@ import React, { Component } from "react";
 import ReactDOM from "react-dom/client";
 
 // Create Import File
+import "./index.css";
 import "./index.scss";
 
 import PageScrollTop from "./component/PageScrollTop";
@@ -57,6 +58,8 @@ import Columns from "./blocks/Columns";
 import PricingTable from "./blocks/PricingTable";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import * as serviceWorker from "./serviceWorker";
+import "./i18n"; 
+
 
 class Root extends Component {
   render() {

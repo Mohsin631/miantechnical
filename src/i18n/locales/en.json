@@ -1,0 +1,109 @@
+{
+    "nav": {
+        "home": "Home",
+        "services": "Services",
+        "projects": "Projects",
+        "about": "About",
+        "contact": "Contact"
+    },
+    "footer": {
+        "cta": {
+            "boxTitle": "Bring Your Vision to Life",
+            "boxSubtitle": "We design and build scalable, powerful, and beautiful digital experiences for startups and enterprises.",
+            "btnText": "Let’s Build Together"
+        },
+        "description": "Building innovation through technology. Your vision, our code.",
+        "quickLinks": {
+            "title": "Quick Links"
+        },
+        "contact": {
+            "title": "Contact",
+            "email": "info@miantechnical.net",
+            "phone": "+1 (780) 800-8561",
+            "location": "Saskatoon, Canada"
+        },
+        "copyright": "Mian Technical Incorporated. All rights reserved."
+    },
+    "home": {
+        "meta": {
+            "pageTitle": "Home"
+        },
+        "hero": {
+            "category": "Mian Technical",
+            "title": "Cutting-edge IT & Engineering Solutions",
+            "description": "We deliver innovative technology and engineering services that enhance efficiency, foster growth, and drive digital transformation.",
+            "buttonText": "Contact Us"
+        },
+        "about": {
+            "title": "Who We Are",
+            "description": "We are a trusted technology and engineering solutions partner dedicated to empowering businesses with cutting-edge innovations. Our mission is to deliver transformative IT services and engineering expertise that enhance efficiency, drive growth, and create lasting impact for our clients worldwide.",
+            "coreStrengthsTitle": "Our Core Strengths",
+            "strengths": {
+                "designUx": "Innovative Design & UX",
+                "engineeringPM": "Engineering & Project Management",
+                "marketing": "Digital Marketing Strategy",
+                "softwareApps": "Custom Software & App Development"
+            }
+        },
+        "services": {
+            "title": "Our Services",
+            "subtitle": "We provide a wide range of IT and engineering services designed to empower your business with innovation, security, and growth.",
+            "items": {
+                "itConsulting": {
+                    "title": "IT Consulting",
+                    "description": "Strategic technology advisory to align IT solutions with your business objectives."
+                },
+                "customSoftware": {
+                    "title": "Custom Software Development",
+                    "description": "Tailored software applications to optimize workflows and deliver business value."
+                },
+                "digitalMarketing": {
+                    "title": "Digital Marketing Solutions",
+                    "description": "Innovative strategies to boost your brand presence and customer engagement."
+                },
+                "mobileApp": {
+                    "title": "Mobile App Development",
+                    "description": "Cross-platform mobile apps with intuitive UI and seamless user experience."
+                },
+                "cloud": {
+                    "title": "Cloud Infrastructure & Services",
+                    "description": "Secure and scalable cloud solutions for improved flexibility and cost efficiency."
+                },
+                "cybersecurity": {
+                    "title": "Cybersecurity & Compliance",
+                    "description": "Robust security solutions to safeguard data and ensure regulatory compliance."
+                },
+                "mechanical": {
+                    "title": "Mechanical Engineering Services",
+                    "description": "Design, analysis, and optimization of mechanical systems to ensure performance and reliability."
+                },
+                "electrical": {
+                    "title": "Electrical Engineering Solutions",
+                    "description": "Power systems, automation, and electrical designs for industrial and commercial projects."
+                },
+                "civil": {
+                    "title": "Civil & Structural Engineering",
+                    "description": "Comprehensive structural design and project planning for sustainable infrastructure."
+                },
+                "productDesign": {
+                    "title": "Product Design & Prototyping",
+                    "description": "End-to-end product development, from concept design to functional prototypes."
+                },
+                "automation": {
+                    "title": "Automation & Control Systems",
+                    "description": "Smart automation solutions to enhance operational efficiency and reduce downtime."
+                },
+                "projectManagement": {
+                    "title": "Project Management & Engineering Consultancy",
+                    "description": "Expert planning, execution, and consulting services to ensure project success."
+                }
+            }
+        },
+        "video": {
+            "title": "Elevate Your Digital Experience",
+            "subtitle": "Immerse yourself in high-impact visuals and seamless performance",
+            "buttonText": "Get Started",
+            "fallback": "Your browser does not support the video tag."
+        }
+    }
+}
