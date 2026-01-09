@@ -1,62 +1,58 @@
-import React, { Component, Fragment } from "react";
+import React, { useState } from "react";
 import CountUp from "react-countup";
 import VisibilitySensor from "react-visibility-sensor";
+import { useTranslation } from "react-i18next";
 
-class CounterOne extends Component {
-  state = {
-    didViewCountUp: false,
-  };
+const CounterOne = () => {
+  const { t } = useTranslation();
+  const [didViewCountUp, setDidViewCountUp] = useState(false);
 
-  onVisibilityChange = (isVisible) => {
+  const onVisibilityChange = (isVisible) => {
     if (isVisible) {
-      this.setState({ didViewCountUp: true });
+      setDidViewCountUp(true);
     }
   };
 
-  render() {
-    let Data = [
-      {
-        countNum: 250,
-        countTitle: "Successful Projects Delivered Globally",
-      },
-      {
-        countNum: 120,
-        countTitle: "Satisfied Clients Across Multiple Industries",
-      },
-      {
-        countNum: 15,
-        countTitle: "Years of Combined Team Experience",
-      },
-    ];
+  const Data = [
+    {
+      countNum: 250,
+      countTitle: t("counters.projectCount.title"),
+      suffix: t("counters.projectCount.suffix", { defaultValue: "+" }),
+    },
+    {
+      countNum: 120,
+      countTitle: t("counters.clientCount.title"),
+      suffix: t("counters.clientCount.suffix", { defaultValue: "+" }),
+    },
+    {
+      countNum: 15,
+      countTitle: t("counters.experienceCount.title"),
+      suffix: t("counters.experienceCount.suffix", { defaultValue: "+" }),
+    },
+  ];
 
-    return (
-      <Fragment>
-        <div className="row">
-          {Data.map((value, index) => (
-            <div
-              className="counterup_style--1 col-lg-4 col-md-4 col-sm-6 col-12 text-center"
-              key={index}
+  return (
+    <div className="row">
+      {Data.map((value, index) => (
+        <div
+          className="counterup_style--1 col-lg-4 col-md-4 col-sm-6 col-12 text-center"
+          key={index}
+        >
+          <h5 className="counter theme-gradient">
+            <VisibilitySensor
+              onChange={onVisibilityChange}
+              offset={{ top: 10 }}
+              delayedCall
             >
-              <h5 className="counter theme-gradient">
-                <VisibilitySensor
-                  onChange={this.onVisibilityChange}
-                  offset={{ top: 10 }}
-                  delayedCall
-                >
-                  <CountUp
-                    end={this.state.didViewCountUp ? value.countNum : 0}
-                    duration={3}
-                  />
-                </VisibilitySensor>
-                +
-              </h5>
-              <p className="description">{value.countTitle}</p>
-            </div>
-          ))}
+              <CountUp end={didViewCountUp ? value.countNum : 0} duration={3} />
+            </VisibilitySensor>
+            {value.suffix}
+          </h5>
+          <p className="description">{value.countTitle}</p>
         </div>
-      </Fragment>
-    );
-  }
-}
+      ))}
+    </div>
+  );
+};
 
 export default CounterOne;

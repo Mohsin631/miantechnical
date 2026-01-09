@@ -128,7 +128,7 @@ const singleDemo = [
   {
     url: "dark-main-demo",
     imageUrl: darkMainDemo,
-    title: "Main Demo — Dark Version",
+    title: "Main Demo   Dark Version",
     description:
       "Our Template is perfect for creative agency.All agencies use this template for all purpose.",
     label: "New",
@@ -176,7 +176,7 @@ const singleDemo = [
   {
     url: "dark-portfolio-landing",
     imageUrl: darkPersonal,
-    title: "Personal Portfolio 02 — One Page",
+    title: "Personal Portfolio 02   One Page",
     description:
       "It comes with landing page feature. This tamplate you can be used for your Personal useses,  Freelancer, Designer, and Developer etc.",
     label: "Hot",
@@ -184,7 +184,7 @@ const singleDemo = [
   {
     url: "portfolio-landing",
     imageUrl: personalPortfolio2,
-    title: "Personal Portfolio — One Page",
+    title: "Personal Portfolio   One Page",
     description:
       "It comes with landing page feature. This tamplate you can be used for your Personal useses,  Freelancer, Designer, and Developer etc.",
     label: "",
@@ -192,7 +192,7 @@ const singleDemo = [
   {
     url: "creative-landing",
     imageUrl: creativeLanding,
-    title: "Creative Agency 02 — One Page",
+    title: "Creative Agency 02   One Page",
     description:
       "Added creative agency landing page.When you need creative agency landing page you can be use it for your creative agency, Digital agency landing page page.",
     label: "",
@@ -216,7 +216,7 @@ const singleDemo = [
   {
     url: "home-particles",
     imageUrl: homeparticles,
-    title: "Home Particle — Landing Page",
+    title: "Home Particle   Landing Page",
     description:
       "Home particle has most feature is particles animation.It can be used for your creative agency, Business agency, Digital agency and so on, And it has Landing page added.",
     label: "",
@@ -321,7 +321,7 @@ const agencyDemo = [
   {
     url: "home-particles",
     imageUrl: homeparticles,
-    title: "Home Particle — Landing Page",
+    title: "Home Particle   Landing Page",
     description:
       "Home particle has most feature is particles animation.It can be used for your creative agency, Business agency, Digital agency and so on, And it has Landing page added.",
     label: "",
@@ -353,7 +353,7 @@ const agencyDemo = [
   {
     url: "dark-main-demo",
     imageUrl: darkMainDemo,
-    title: "Main Demo — Dark Version",
+    title: "Main Demo   Dark Version",
     description:
       "Our Template is perfect for creative agency.All agencies use this template for all purpose.",
     label: "New",
@@ -361,7 +361,7 @@ const agencyDemo = [
   {
     url: "creative-landing",
     imageUrl: creativeLanding,
-    title: "Creative Agency 02 — One Page",
+    title: "Creative Agency 02   One Page",
     description:
       "Added creative agency landing page.When you need creative agency landing page you can be use it for your creative agency, Digital agency landing page page.",
     label: "",
@@ -420,7 +420,7 @@ const busenessDemo = [
   {
     url: "home-particles",
     imageUrl: homeparticles,
-    title: "Home Particle — Landing Page",
+    title: "Home Particle   Landing Page",
     description:
       "Home particle has most feature is particles animation.It can be used for your creative agency, Business agency, Digital agency and so on, And it has Landing page added.",
     label: "",
@@ -455,7 +455,7 @@ const portfolioList = [
   {
     url: "dark-portfolio-landing",
     imageUrl: darkPersonal,
-    title: "Personal Portfolio 02 — One Page",
+    title: "Personal Portfolio 02   One Page",
     description:
       "It comes with landing page feature. This tamplate you can be used for your Personal useses,  Freelancer, Designer, and Developer etc.",
     label: "Hot",
@@ -487,7 +487,7 @@ const portfolioList = [
   {
     url: "portfolio-landing",
     imageUrl: personalPortfolio2,
-    title: "Personal Portfolio — One Page",
+    title: "Personal Portfolio   One Page",
     description:
       "It comes with landing page feature. This tamplate you can be used for your Personal useses,  Freelancer, Designer, and Developer etc.",
     label: "New",
@@ -498,7 +498,7 @@ const landingPage = [
   {
     url: "dark-portfolio-landing",
     imageUrl: darkPersonal,
-    title: "Personal Portfolio 02 — One Page",
+    title: "Personal Portfolio 02   One Page",
     description:
       "It comes with landing page feature. This tamplate you can be used for your Personal useses,  Freelancer, Designer, and Developer etc.",
     label: "Hot",
@@ -506,7 +506,7 @@ const landingPage = [
   {
     url: "portfolio-landing",
     imageUrl: personalPortfolio2,
-    title: "Personal Portfolio — One Page",
+    title: "Personal Portfolio   One Page",
     description:
       "It comes with landing page feature. This tamplate you can be used for your Personal useses,  Freelancer, Designer, and Developer etc.",
     label: "New",
@@ -514,7 +514,7 @@ const landingPage = [
   {
     url: "creative-landing",
     imageUrl: creativeLanding,
-    title: "Creative Agency 02 — One Page",
+    title: "Creative Agency 02   One Page",
     description:
       "Added creative agency landing page.When you need creative agency landing page you can be use it for your creative agency, Digital agency landing page page.",
     label: "New",
@@ -530,7 +530,7 @@ const landingPage = [
   {
     url: "home-particles",
     imageUrl: homeparticles,
-    title: "Home Particle — Landing Page",
+    title: "Home Particle   Landing Page",
     description:
       "Home particle has most feature is particles animation.It can be used for your creative agency, Business agency, Digital agency and so on, And it has Landing page added.",
     label: "",
@@ -549,7 +549,7 @@ const newDemoList = [
   {
     url: "dark-portfolio-landing",
     imageUrl: darkPersonal,
-    title: "Personal Portfolio 02 — One Page",
+    title: "Personal Portfolio 02   One Page",
     description:
       "It comes with landing page feature. This tamplate you can be used for your Personal useses,  Freelancer, Designer, and Developer etc.",
     label: "Hot",
@@ -574,7 +574,7 @@ const newDemoList = [
   {
     url: "creative-landing",
     imageUrl: creativeLanding,
-    title: "Creative Agency 02 — One Page",
+    title: "Creative Agency 02   One Page",
     description:
       "Added creative agency landing page.When you need creative agency landing page you can be use it for your creative agency, Digital agency landing page page.",
     label: "New",
@@ -582,7 +582,7 @@ const newDemoList = [
   {
     url: "portfolio-landing",
     imageUrl: personalPortfolio2,
-    title: "Personal Portfolio — One Page",
+    title: "Personal Portfolio   One Page",
     description:
       "It comes with landing page feature. This tamplate you can be used for your Personal useses,  Freelancer, Designer, and Developer etc.",
     label: "New",

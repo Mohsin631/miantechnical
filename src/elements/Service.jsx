@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import PageHelmet from "../component/common/Helmet";
+import { useTranslation } from "react-i18next";
+
 import Breadcrumb from "../elements/common/Breadcrumb";
 import {
   FiCast,
@@ -13,195 +15,177 @@ import Header from "../component/header/Header";
 import Footer from "../component/footer/Footer";
 
 // IT Services
-const ITServices = [
-  {
-    icon: <FiCast />,
-    title: "IT Consulting",
-    slug: "it-consulting",
-    description:
-      "Expert advisory to align technology strategies with your business objectives.",
-  },
-  {
-    icon: <FiLayers />,
-    title: "Custom Software Development",
-    slug: "custom-software-development",
-    description:
-      "Tailored software solutions to streamline operations and improve efficiency.",
-  },
-  {
-    icon: <FiUsers />,
-    title: "Digital Marketing Solutions",
-    slug: "digital-marketing-solutions",
-    description:
-      "Data-driven marketing strategies that enhance brand visibility and growth.",
-  },
-  {
-    icon: <FiMonitor />,
-    title: "Mobile App Development",
-    slug: "mobile-app-development",
-    description:
-      "Cross-platform mobile applications built for seamless user experiences.",
-  },
-  {
-    icon: <FiCast />,
-    title: "Cloud Solutions",
-    slug: "cloud-solutions",
-    description:
-      "Secure and scalable cloud services to optimize infrastructure and costs.",
-  },
-  {
-    icon: <FiMonitor />,
-    title: "Cybersecurity Services",
-    slug: "cybersecurity-services",
-    description:
-      "Advanced security frameworks to protect digital assets and maintain compliance.",
-  },
-];
 
-const EngineeringServices = [
-  {
-    icon: <FiLayers />,
-    title: "Mechanical Engineering",
-    slug: "mechanical-engineering",
-    description:
-      "Comprehensive design and analysis of mechanical systems for optimal performance.",
-  },
-  {
-    icon: <FiUsers />,
-    title: "Electrical Engineering",
-    slug: "electrical-engineering",
-    description:
-      "Power systems, automation, and electrical design solutions for diverse industries.",
-  },
-  {
-    icon: <FiMonitor />,
-    title: "Civil & Structural Engineering",
-    slug: "civil-structural-engineering",
-    description:
-      "Infrastructure planning, structural design, and sustainable construction solutions.",
-  },
-  {
-    icon: <FiCast />,
-    title: "Product Design & Prototyping",
-    slug: "product-design-prototyping",
-    description:
-      "Innovative product development from concept to prototype for market readiness.",
-  },
-  {
-    icon: <FiLayers />,
-    title: "Automation & Control Systems",
-    slug: "automation-control-systems",
-    description:
-      "Intelligent automation systems to enhance operational efficiency and reduce costs.",
-  },
-  {
-    icon: <FiUsers />,
-    title: "Project Management & Consultancy",
-    slug: "project-management-consultancy",
-    description:
-      "Expert engineering consultancy to ensure successful project execution and delivery.",
-  },
-];
+const Service = () => {
+  const { t } = useTranslation();
 
-class Service extends Component {
-  render() {
-    return (
-      <React.Fragment>
-        <PageHelmet pageTitle="Services" />
-        <Header
-          headertransparent="header--transparent"
-          colorblack="color--black"
-          logoname="logo.png"
-        />
+  const ITServices = [
+    {
+      icon: <FiCast />,
+      title: t("home.services.items.itConsulting.title"),
+      description: t("home.services.items.itConsulting.description"),
+      slug: "it-consulting",
+    },
+    {
+      icon: <FiLayers />,
+      title: t("home.services.items.customSoftware.title"),
+      description: t("home.services.items.customSoftware.description"),
+      slug: "custom-software-development",
+    },
+    {
+      icon: <FiUsers />,
+      title: t("home.services.items.digitalMarketing.title"),
+      description: t("home.services.items.digitalMarketing.description"),
+      slug: "digital-marketing-solutions",
+    },
+    {
+      icon: <FiMonitor />,
+      title: t("home.services.items.mobileApp.title"),
+      description: t("home.services.items.mobileApp.description"),
+      slug: "mobile-app-development",
+    },
+    {
+      icon: <FiCast />,
+      title: t("home.services.items.cloud.title"),
+      description: t("home.services.items.cloud.description"),
+      slug: "cloud-solutions",
+    },
+    {
+      icon: <FiMonitor />,
+      title: t("home.services.items.cybersecurity.title"),
+      description: t("home.services.items.cybersecurity.description"),
+      slug: "cybersecurity-services",
+    },
+  ];
 
-        {/* Start Breadcrump Area */}
-        <Breadcrumb title={"Our Services"} />
-        {/* End Breadcrump Area */}
+  const EngineeringServices = [
+    {
+      icon: <FiLayers />,
+      title: t("home.services.items.mechanical.title"),
+      description: t("home.services.items.mechanical.description"),
+      slug: "mechanical-engineering",
+    },
+    {
+      icon: <FiUsers />,
+      title: t("home.services.items.electrical.title"),
+      description: t("home.services.items.electrical.description"),
+      slug: "electrical-engineering",
+    },
+    {
+      icon: <FiMonitor />,
+      title: t("home.services.items.civil.title"),
+      description: t("home.services.items.civil.description"),
+      slug: "civil-structural-engineering",
+    },
+    {
+      icon: <FiCast />,
+      title: t("home.services.items.productDesign.title"),
+      description: t("home.services.items.productDesign.description"),
+      slug: "product-design-prototyping",
+    },
+    {
+      icon: <FiLayers />,
+      title: t("home.services.items.automation.title"),
+      description: t("home.services.items.automation.description"),
+      slug: "automation-control-systems",
+    },
+    {
+      icon: <FiUsers />,
+      title: t("home.services.items.projectManagement.title"),
+      description: t("home.services.items.projectManagement.description"),
+      slug: "project-management-consultancy",
+    },
+  ];
+  return (
+    <React.Fragment>
+      <PageHelmet pageTitle="Services" />
+      <Header
+        headertransparent="header--transparent"
+        colorblack="color--black"
+        logoname="logo.png"
+      />
 
-        {/* IT Services Section */}
-        <div className="service-area ptb--120 bg_color--1">
-          <div className="container">
-            <div className="row">
-              <div className="col-lg-12">
-                <div className="section-title text-center mb--30">
-                  <h2>IT Services</h2>
-                  <p>
-                    Empowering businesses with innovative IT solutions that
-                    drive efficiency, security, and growth.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="row service-one-wrapper">
-              {ITServices.map((val, i) => (
-                <div
-                  className="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12"
-                  key={i}
-                >
-                  <a href={`/services/${val.slug}`}>
+      {/* Start Breadcrump Area */}
+      <Breadcrumb title={"Our Services"} />
+      {/* End Breadcrump Area */}
+
+      {/* IT Services Section */}
+      <div className="service-area ptb--120 bg_color--1">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-12">
+        <div className="section-title text-center mb--30">
+          <h2>{t("services.itServices.title")}</h2>
+          <p>{t("services.itServices.description")}</p>
+        </div>
+      </div>
+          </div>
+          <div className="row service-one-wrapper">
+            {ITServices.map((val, i) => (
+              <div
+                className="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12"
+                key={i}
+              >
+                <a href={`/services/${val.slug}`}>
                   <div className="service service__style--2">
-                      <div className="icon">{val.icon}</div>
-                      <div className="content">
-                        <h3 className="title">{val.title}</h3>
-                        <p>{val.description}</p>
-                      </div>
+                    <div className="icon">{val.icon}</div>
+                    <div className="content">
+                      <h3 className="title">{val.title}</h3>
+                      <p>{val.description}</p>
                     </div>
-                  </a>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-        {/* End IT Services Section */}
-
-        {/* Engineering Services Section */}
-        <div className="service-area ptb--120 bg_color--5">
-          <div className="container">
-            <div className="row">
-              <div className="col-lg-12">
-                <div className="section-title text-center mb--30">
-                  <h2>Engineering Services</h2>
-                  <p>
-                    Delivering world-class engineering solutions to design,
-                    optimize, and build for the future.
-                  </p>
-                </div>
+                  </div>
+                </a>
               </div>
-            </div>
-            <div className="row service-one-wrapper">
-              {EngineeringServices.map((val, i) => (
-                <div
-                  className="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12"
-                  key={i}
-                >
-                  <a href={`/services/${val.slug}`}>
-                    <div className="service service__style--2">
-                      <div className="icon">{val.icon}</div>
-                      <div className="content">
-                        <h3 className="title">{val.title}</h3>
-                        <p>{val.description}</p>
-                      </div>
-                    </div>
-                  </a>
-                </div>
-              ))}
-            </div>
+            ))}
           </div>
         </div>
-        {/* End Engineering Services Section */}
+      </div>
+      {/* End IT Services Section */}
 
-        {/* Back To Top */}
-        <div className="backto-top">
-          <ScrollToTop showUnder={160}>
-            <FiChevronUp />
-          </ScrollToTop>
+      {/* Engineering Services Section */}
+      <div className="service-area ptb--120 bg_color--5">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-12">
+        <div className="section-title text-center mb--30">
+          <h2>{t("services.engineeringServices.title")}</h2>
+          <p>{t("services.engineeringServices.description")}</p>
         </div>
-        {/* End Back To Top */}
+      </div>
+          </div>
+          <div className="row service-one-wrapper">
+            {EngineeringServices.map((val, i) => (
+              <div
+                className="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12"
+                key={i}
+              >
+                <a href={`/services/${val.slug}`}>
+                  <div className="service service__style--2">
+                    <div className="icon">{val.icon}</div>
+                    <div className="content">
+                      <h3 className="title">{val.title}</h3>
+                      <p>{val.description}</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+      {/* End Engineering Services Section */}
 
-        <Footer />
-      </React.Fragment>
-    );
-  }
-}
+      {/* Back To Top */}
+      <div className="backto-top">
+        <ScrollToTop showUnder={160}>
+          <FiChevronUp />
+        </ScrollToTop>
+      </div>
+      {/* End Back To Top */}
+
+      <Footer />
+    </React.Fragment>
+  );
+};
 
 export default Service;

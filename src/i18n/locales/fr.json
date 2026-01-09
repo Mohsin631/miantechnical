@@ -24,6 +24,14 @@
     },
     "copyright": "Mian Technical Incorporated. Tous droits réservés."
   },
+    "breadcrumb": {
+    "home": "Accueil",
+    "services": "Services",
+    "about": "À propos",
+    "portfolio": "Portfolio",
+    "blog": "Blog",
+    "contact": "Contact"
+  },
   "home": {
     "meta": {
       "pageTitle": "Accueil"
@@ -104,6 +112,339 @@
       "subtitle": "Plongez dans des visuels percutants et une performance fluide",
       "buttonText": "Commencer",
       "fallback": "Votre navigateur ne prend pas en charge la vidéo."
+    }
+  },
+  "services": {
+     "itServices": {
+        "title": "Services IT",
+        "description": "Donner aux entreprises les moyens d'agir avec des solutions IT innovantes qui favorisent l'efficacité, la sécurité et la croissance."
+      },
+      "engineeringServices": {
+        "title": "Services d'Ingénierie",
+        "description": "Fournir des solutions d'ingénierie de classe mondiale pour concevoir, optimiser et construire l'avenir."
+      },
+    "itConsulting": {
+      "title": "Conseil en IT",
+      "description": "Conseil stratégique pour aligner votre feuille de route technologique avec les objectifs commerciaux, le budget et les délais de livraison.",
+      "fullDescription": "Notre service de Conseil en IT aide les organisations à prendre des décisions technologiques éclairées qui soutiennent de réels résultats commerciaux. Nous commençons par comprendre vos objectifs, la structure de votre équipe, les systèmes actuels et les points de douleur, puis traduisons cela en une feuille de route pratique que votre équipe peut réellement exécuter. Nous examinons votre infrastructure, vos applications, votre posture de sécurité et vos flux opérationnels pour identifier les risques, les goulots d'étranglement et les gains rapides. Du choix de la bonne architecture à la définition de la gouvernance et à l'amélioration des processus de livraison, nous nous concentrons sur la clarté et l'impact mesurable.\n\nVous recevrez un plan priorisé avec des phases claires, des estimations d'effort et des recommandations adaptées à votre budget et à vos délais. Si nécessaire, nous soutenons la sélection des fournisseurs, la stratégie cloud, la modernisation et le sauvetage de projets sans imposer des outils ou des reconstructions inutiles. Nous travaillons également avec vos parties prenantes internes pour assurer l'adoption, le transfert de connaissances et des opérations durables. Notre objectif est simple : vous aider à réduire la dette technique, améliorer la fiabilité et créer une fondation IT qui évolue avec la croissance de votre organisation. Tout au long de l'engagement, nous assurons une communication transparente, une documentation et des conseils actionnables pour maintenir chaque décision alignée avec votre stratégie.",
+      "process": [
+        "Analyser l'infrastructure IT existante",
+        "Identifier les lacunes et opportunités",
+        "Développer une feuille de route IT stratégique",
+        "Mettre en œuvre des solutions optimisées",
+        "Surveiller et améliorer continuellement"
+      ]
+    },
+    "customSoftware": {
+      "title": "Développement de Logiciels Sur Mesure",
+      "description": "Concevoir des logiciels fiables adaptés à vos flux de travail sécurisés, évolutifs et prêts pour une croissance à long terme.",
+      "fullDescription": "Nous concevons et développons des logiciels sur mesure qui s'adaptent à vos processus métier au lieu de forcer votre équipe à s'adapter à des outils génériques. Notre approche commence par la découverte et des exigences claires, suivies par une conception UI/UX qui garde l'expérience utilisateur simple et efficace. Nous construisons ensuite avec une architecture moderne et maintenable, des pratiques de code propre et une attention portée aux performances et à la sécurité. Que vous ayez besoin d'un système interne, d'un portail client, d'une extension ERP/CRM ou d'une plateforme SaaS de bout en bout, nous livrons des logiciels stables, testables et faciles à faire évoluer.\n\nNous travaillons en cycles itératifs pour que vous puissiez voir les progrès tôt et fournir des retours continus. Cela réduit les risques et garantit que le produit final correspond aux besoins réels. Nous implémentons des API robustes, des intégrations, l'authentification, l'accès basé sur les rôles, la journalisation et l'analyse lorsque requis. L'assurance qualité est incluse tout au long du cycle de vie, avec des vérifications automatisées et des tests manuels pour prévenir les régressions. Après le lancement, nous fournissons un support, une surveillance et des améliorations pour que votre plateforme reste alignée avec les exigences changeantes. Le résultat est un produit fiable qui améliore les opérations, augmente la productivité et délivre une valeur mesurable.",
+      "process": [
+        "Collecte et analyse des exigences",
+        "Conception UI/UX et prototypage",
+        "Développement personnalisé et codage",
+        "Assurance qualité et tests",
+        "Déploiement et support post-lancement"
+      ]
+    },
+    "digitalMarketing": {
+      "title": "Solutions de Marketing Digital",
+      "description": "Marketing axé sur la performance qui améliore la visibilité, génère des leads et renforce votre marque en ligne.",
+      "fullDescription": "Nos Solutions de Marketing Digital sont conçues pour produire une croissance mesurable, pas seulement des impressions. Nous combinons stratégie, exécution créative et suivi des performances pour créer des campagnes qui attirent le bon public et le convertissent en clients. Nous commençons par la recherche : votre marché, concurrents, personas clients et performance actuelle de l'entonnoir. Basé sur les insights, nous créons un plan personnalisé qui inclut le SEO, la stratégie de contenu, la publicité payante, les campagnes de médias sociaux et l'optimisation de la conversion.\n\nNous nous concentrons sur des messages de haute qualité qui correspondent à la voix de votre marque et répondent aux besoins réels des clients. Notre travail SEO améliore la santé technique, la pertinence on-page et l'autorité grâce au contenu et à la promotion éthique. Pour les campagnes payantes, nous créons des ensembles d'annonces structurés, des pages de destination et un suivi pour que chaque clic soit responsable. Nous surveillons les performances continuellement et itérons chaque semaine pour améliorer le ROI et réduire les coûts d'acquisition. Les rapports sont clairs et axés sur les affaires : leads, conversions, impact sur le revenu et actions suivantes. Que vous lanciez un nouveau service ou développiez une marque établie, nous vous aidons à croître durablement avec un système marketing de confiance.",
+      "process": [
+        "Analyse du marché et des concurrents",
+        "Développer une stratégie marketing personnalisée",
+        "Exécuter des campagnes sur plusieurs canaux",
+        "Suivre et analyser les métriques de performance",
+        "Optimisation continue pour un meilleur ROI"
+      ]
+    },
+    "mobileApp": {
+      "title": "Développement d'Applications Mobiles",
+      "description": "Applications iOS et Android modernes avec une UX fluide, une architecture évolutive et des intégrations backend sécurisées.",
+      "fullDescription": "Nous construisons des applications mobiles qui sont rapides, élégantes et restent fiables à mesure que votre base d'utilisateurs grandit. Notre processus commence par la planification des fonctionnalités et des parcours utilisateurs, puis passe à la conception UI/UX qui priorise la clarté, l'accessibilité et la cohérence. Nous développons des solutions cross-platform ou natives selon vos objectifs produits, besoins de performance et budget. De l'authentification et des profils utilisateurs aux paiements, localisation, notifications push et mises à jour en temps réel, nous implémentons des fonctionnalités avec un accent sur la stabilité et la maintenabilité.\n\nNous portons une attention particulière aux performances de l'application, au comportement hors ligne, à la gestion des erreurs et à la compatibilité des appareils. Les tests sont effectués sur plusieurs tailles d'écran et versions OS pour réduire les problèmes en production. Nous configurons également des analyses et des rapports de crash pour que vous puissiez comprendre comment les utilisateurs interagissent avec l'application et résoudre rapidement les problèmes. Si votre application a besoin de services backend, nous construisons ou intégrons des API sécurisées avec un contrôle d'accès approprié et une surveillance. Après la publication, nous fournissons des mises à jour, des améliorations et un support continu pour garder votre application compétitive. Le résultat est une expérience mobile que les utilisateurs apprécient et que les entreprises peuvent développer avec confiance.",
+      "process": [
+        "Conceptualisation et maquettage",
+        "Conception UI/UX",
+        "Développement natif et cross-platform",
+        "Tests sur plusieurs appareils",
+        "Déploiement et mises à jour de l'application"
+      ]
+    },
+    "cloudSolutions": {
+      "title": "Solutions Cloud",
+      "description": "Migration et optimisation cloud pour améliorer la fiabilité, réduire les coûts et renforcer la sécurité et la conformité.",
+      "fullDescription": "Nos Solutions Cloud vous aident à migrer vers le cloud en toute sécurité et à opérer efficacement une fois sur place. Nous soutenons l'adoption du cloud pour AWS, Azure et Google Cloud, incluant la planification d'architecture, la migration, la modernisation et l'optimisation continue. Nous commençons par une évaluation de préparation pour examiner les charges de travail, dépendances, sensibilité des données et exigences de performance. Ensuite, nous recommandons une architecture qui équilibre coût, sécurité et évolutivité que ce soit lift-and-shift, re-platform ou refactor.\n\nPendant la migration, nous nous concentrons sur la minimisation des temps d'arrêt, la protection des données et la validation des performances. Nous implémentons les meilleures pratiques pour le réseau, la gestion des identités et accès, les stratégies de sauvegarde et l'observabilité. Après le déploiement, nous optimisons les ressources et mettons en place des contrôles de coût, des alertes et des pratiques de dimensionnement pour éviter les surprises budgétaires. Pour les équipes qui en ont besoin, nous fournissons documentation, formation de transfert et runbooks opérationnels. L'objectif est un environnement cloud stable, sécurisé et facile à gérer pour que votre entreprise puisse évoluer rapidement sans sacrifier le contrôle ou la fiabilité.",
+      "process": [
+        "Évaluation de préparation au cloud",
+        "Sélection de l'architecture cloud optimale",
+        "Migration des données et applications",
+        "Optimisation des performances et coûts",
+        "Surveillance et support continus"
+      ]
+    },
+    "cybersecurity": {
+      "title": "Services de Cybersécurité",
+      "description": "Protection de bout en bout avec évaluations, contrôles, surveillance et support de conformité pour réduire les risques cyber.",
+      "fullDescription": "La cybersécurité n'est pas un projet ponctuel, c'est une capacité continue. Nos Services de Cybersécurité aident à protéger les systèmes, données et utilisateurs de votre organisation grâce à des contrôles pratiques et une amélioration continue. Nous commençons par une évaluation de sécurité qui examine l'infrastructure, les applications, le contrôle d'accès, la configuration et la préparation aux incidents. Nous identifions les vulnérabilités, priorisons les correctifs et concevons un plan de sécurité qui correspond à votre profil de risque et exigences réglementaires.\n\nNous implémentons des contrôles de sécurité comme MFA, l'accès au moindre privilège, la segmentation réseau sécurisée, la protection des terminaux, la journalisation et la surveillance. Pour la sécurité applicative, nous soutenons les pratiques de codage sécurisé, les revues de dépendances et les tests. Nous pouvons également aider avec les politiques, procédures, formation de sensibilisation à la sécurité et préparation à la conformité lorsque requis. Notre objectif est d'améliorer votre posture de sécurité sans créer de complexité inutile. Avec des rapports clairs et des recommandations actionnables, vous saurez ce qui compte le plus et quoi faire ensuite. Le résultat est des défenses plus fortes, une meilleure visibilité et une résilience améliorée contre les menaces modernes.",
+      "process": [
+        "Effectuer une évaluation des risques de sécurité",
+        "Identifier les vulnérabilités et menaces",
+        "Déployer des cadres de sécurité",
+        "Surveiller et répondre aux menaces",
+        "Audits réguliers et vérifications de conformité"
+      ]
+    },
+    "mechanicalEngineering": {
+      "title": "Ingénierie Mécanique",
+      "description": "Conception, analyse et optimisation mécanique pour améliorer les performances, la fiabilité et la fabricabilité.",
+      "fullDescription": "Nos services d'Ingénierie Mécanique soutiennent les projets produits et industriels du concept à la conception détaillée et validation. Nous aidons les clients à transformer les exigences en solutions fabricables en combinant les fondamentaux de l'ingénierie avec les contraintes de production pratiques. Notre équipe effectue la conception, modélisation, simulation et documentation pour les systèmes et composants mécaniques, en se concentrant sur la durabilité, l'efficacité et la sécurité. Nous pouvons soutenir les assemblages, mécanismes, boîtiers, gabarits, concepts d'outillage et agencements de systèmes selon la portée de votre projet.\n\nNous utilisons des revues de conception structurées et des analyses pour valider les performances sous les charges et conditions opérationnelles attendues. Lorsque requis, nous évaluons les matériaux, tolérances et méthodes de fabrication pour réduire les coûts et améliorer la fiabilité. Nous générons également des dessins techniques et nomenclatures alignés sur les standards courants pour que vos équipes de fabrication et d'approvisionnement puissent avancer avec confiance. Tout au long de l'engagement, nous communiquons clairement, documentons les décisions et collaborons avec vos parties prenantes pour assurer que la solution correspond aux objectifs techniques et commerciaux. Le résultat est un livrable ingénierie qui est pratique, testable et prêt pour l'implémentation.",
+      "process": [
+        "Analyser les exigences et contraintes",
+        "Créer des conceptions conceptuelles",
+        "Simuler et optimiser les performances",
+        "Développer des dessins d'ingénierie détaillés",
+        "Prototypage et implémentation finale"
+      ]
+    },
+    "electricalEngineering": {
+      "title": "Ingénierie Électrique",
+      "description": "Conception électrique et support d'automatisation pour les systèmes industriels et commerciaux, avec sécurité et conformité à l'esprit.",
+      "fullDescription": "Nous fournissons des solutions d'Ingénierie Électrique pour la distribution électrique, les systèmes de contrôle et les projets d'automatisation industrielle. Notre équipe soutient la conception, documentation et planification d'implémentation pour les systèmes qui doivent être sûrs, fiables et conformes aux standards applicables. Nous travaillons avec les clients pour définir les exigences électriques, sélectionner les composants appropriés et créer des schémas et agencements clairs qui peuvent être exécutés sur site.\n\nPour l'automatisation, nous aidons à concevoir les architectures de contrôle, le mappage des E/S et l'intégration avec capteurs, actionneurs et environnements PLC/SCADA lorsque nécessaire. Nous nous concentrons sur la fiabilité opérationnelle, la maintenabilité et une documentation claire pour que vos techniciens puissent dépanner et opérer les systèmes efficacement. Lorsque requis, nous soutenons les plans de test, listes de vérification de mise en service et documentation de transfert pour réduire les risques pendant le déploiement. Notre objectif est de fournir des conceptions électriques qui améliorent la disponibilité, réduisent le gaspillage énergétique et soutiennent les performances système à long terme. Qu'il s'agisse d'une nouvelle installation ou d'une mise à niveau, nous vous aidons à livrer avec confiance et clarté.",
+      "process": [
+        "Évaluer les exigences électriques",
+        "Concevoir les systèmes d'alimentation et de contrôle",
+        "Implémenter les cadres d'automatisation",
+        "Tests et vérifications de sécurité et conformité",
+        "Mise en service finale et support"
+      ]
+    },
+    "civilEngineering": {
+      "title": "Ingénierie Civile & Structurelle",
+      "description": "Planification et conception structurelle pour des projets d'infrastructure et de construction sûrs, efficaces et durables.",
+      "fullDescription": "Nos services d'Ingénierie Civile & Structurelle aident les clients à planifier et livrer des structures sûres, efficaces et constructibles. Nous soutenons les projets depuis la faisabilité précoce jusqu'à la conception détaillée, en nous concentrant sur l'intégrité structurelle, la constructibilité et la performance à long terme. Nous collaborons avec les parties prenantes pour comprendre les conditions du site, les exigences fonctionnelles et les contraintes budgétaires, puis développons des livrables de conception qui répondent à ces besoins de manière responsable.\n\nNotre travail peut inclure des directives de disposition préliminaire, l'analyse structurelle, la coordination avec d'autres disciplines et une documentation adaptée à l'exécution de la construction. Nous mettons l'accent sur la clarté dans les dessins et spécifications pour que les entrepreneurs puissent construire avec précision et efficacité. Nous priorisons également la sécurité, en considérant les chemins de charge, la stabilité, la durabilité et les codes du bâtiment pertinents. Lorsque requis, nous soutenons les revues de conception et les vérifications de qualité pour réduire les risques pendant la construction. Le résultat est une solution structurelle qui équilibre sécurité, coût et planning, aidant votre projet à avancer avec confiance.",
+      "process": [
+        "Analyse de faisabilité et du site",
+        "Concevoir le cadre structurel",
+        "Créer des plans de construction détaillés",
+        "Superviser l'exécution de la construction",
+        "Effectuer des inspections et vérifications de qualité"
+      ]
+    },
+    "productDesign": {
+      "title": "Conception de Produit & Prototypage",
+      "description": "Du concept au prototype : design industriel, CAO et validation pour préparer votre produit à la fabrication.",
+      "fullDescription": "Nous aidons les entreprises à transformer des idées en produits tangibles et testables grâce à une conception structurée et au prototypage. Notre service Conception de Produit & Prototypage couvre le développement de concepts, la modélisation CAO, les considérations d'utilisabilité et le raffinement itératif. Nous nous concentrons sur la construction de produits non seulement esthétiques, mais aussi fonctionnels, fabricables et alignés sur les besoins réels des utilisateurs.\n\nNous commençons par clarifier les exigences et définir les critères de succès, puis produisons des concepts qui équilibrent performance, coût, matériaux et contraintes de production. En utilisant des outils CAO, nous développons des prototypes ou des modèles prêts pour prototypage qui peuvent être testés pour l'ajustement, la fonction et l'assemblage. Nous soutenons également le raffinement de la conception basé sur les retours, vous aidant à passer des premières itérations à une version adaptée au transfert de fabrication. Notre objectif est de réduire l'incertitude avant la production en validant les décisions clés tôt. Le résultat est un chemin plus clair vers le lancement, moins de révisions coûteuses et une expérience produit que les clients apprécient.",
+      "process": [
+        "Collecter les exigences produit",
+        "Concevoir des modèles conceptuels initiaux",
+        "Développer des prototypes avec des outils CAO",
+        "Tester et raffiner la fonctionnalité",
+        "Finaliser la conception pour la fabrication"
+      ]
+    },
+    "automation": {
+      "title": "Automatisation & Systèmes de Contrôle",
+      "description": "Planification d'automatisation et conception de contrôle pour améliorer la productivité, réduire les erreurs et augmenter la visibilité opérationnelle.",
+      "fullDescription": "Notre service Automatisation & Systèmes de Contrôle aide les organisations à rationaliser les opérations en implémentant des stratégies d'automatisation fiables et des conceptions de systèmes de contrôle. Nous analysons les flux de travail actuels pour identifier les tâches répétitives, les étapes sujettes aux erreurs et les opportunités d'amélioration du débit. Ensuite, nous définissons une approche d'automatisation qui correspond à votre environnement, que ce soit des processus industriels, des systèmes de bâtiment ou des flux opérationnels nécessitant surveillance et contrôle.\n\nNous soutenons la conception d'architecture de contrôle, la planification d'intégration et la documentation pour assurer que votre équipe peut implémenter et maintenir le système efficacement. Notre focus est la livraison pratique : sécurité, fiabilité et maintenabilité d'abord. Nous pouvons également aider à définir des listes de vérification de test et de mise en service, ainsi que des formations opérateur et matériels de transfert pour réduire les temps d'arrêt pendant l'adoption. En introduisant les bons contrôles et visibilité, vous pouvez réduire les coûts d'exploitation, améliorer la cohérence et augmenter la production avec moins de perturbations. Le résultat est un système plus intelligent et prévisible qui soutient la croissance à long terme.",
+      "process": [
+        "Analyse des processus et planification de l'automatisation",
+        "Concevoir l'architecture du système de contrôle",
+        "Implémenter des solutions d'automatisation",
+        "Effectuer les tests système et la formation",
+        "Surveillance et optimisation continues"
+      ]
+    },
+    "projectManagement": {
+      "title": "Gestion de Projet & Conseil",
+      "description": "Support structuré de livraison de projet : planification, coordination et reporting pour maintenir les projets d'ingénierie sur la bonne voie.",
+      "fullDescription": "Nous fournissons des services de Gestion de Projet & Conseil pour aider les projets d'ingénierie et technologie à rester alignés, contrôlés et livrables. Beaucoup de projets échouent non pas par manque d'effort, mais à cause d'un périmètre flou, de priorités changeantes et d'une faible coordination. Nous comblons ces écarts en établissant des objectifs, délais, responsabilités et rythmes de communication clairs qui maintiennent l'alignement des parties prenantes.\n\nNotre équipe soutient la planification, l'ordonnancement, la gestion des risques et le reporting de progrès pour que les dirigeants puissent prendre des décisions éclairées tôt, avant que les petits problèmes ne deviennent des retards coûteux. Nous aidons à définir les limites du périmètre, gérer les dépendances, coordonner les fournisseurs et équipes internes, et implémenter une gouvernance pratique adaptée à votre organisation. Lorsque nécessaire, nous fournissons un support de récupération pour les projets en retard, incluant le re-périmètre, re-planification et stabilisation de la livraison. Le résultat est un processus de livraison plus prévisible, une meilleure responsabilisation et une plus grande confiance dans les résultats. Nous nous concentrons sur une exécution qui respecte budget, planning et qualité pour que les projets se terminent avec succès et que les parties prenantes restent satisfaites.",
+      "process": [
+        "Définir les objectifs et le périmètre du projet",
+        "Développer un plan de projet détaillé",
+        "Allouer les ressources et assigner les tâches",
+        "Surveiller le progrès et gérer les risques",
+        "Livrer le rapport final et clôture du projet"
+      ]
+    }
+  },
+  
+  "about": {
+    "pageTitle": "À propos de nous",
+    "title": "À propos de nous",
+    "whoWeAre": {
+      "title": "Qui sommes-nous",
+      "description": "Nous sommes un fournisseur mondial de solutions IT et d'ingénierie dédié à offrir des expériences digitales transformatrices et des solutions d'ingénierie innovantes. Notre mission est de donner aux entreprises les moyens d'agir grâce à une technologie qui favorise la croissance, l'efficacité et l'avantage concurrentiel.",
+      "imageAlt": "À propos de nous"
+    },
+    "mission": {
+      "title": "Mission",
+      "description": "Fournir des solutions IT et d'ingénierie de pointe qui aident les entreprises à innover et prospérer dans un paysage digital en constante évolution."
+    },
+    "vision": {
+      "title": "Vision",
+      "description": "Devenir un partenaire technologique mondial de confiance, permettant aux entreprises d'atteindre l'excellence opérationnelle et la durabilité grâce à la transformation digitale."
+    },
+    "coreValues": {
+      "title": "Nos Valeurs Fondamentales",
+      "subtitle": "Nous vivons selon des principes qui définissent notre succès et votre croissance.",
+      "innovation": {
+        "title": "Innovation",
+        "description": "Nous embrassons le changement et évoluons continuellement avec la technologie."
+      },
+      "integrity": {
+        "title": "Intégrité",
+        "description": "Nous opérons avec transparence et honnêteté dans toutes nos transactions."
+      },
+      "customerCentric": {
+        "title": "Centré sur le client",
+        "description": "Votre succès est notre priorité absolue."
+      },
+      "excellence": {
+        "title": "Excellence",
+        "description": "Nous visons la qualité et la perfection dans tout ce que nous faisons."
+      }
+    },
+    "achievements": {
+      "title": "Nos Réalisations",
+      "subtitle": "Faisant confiance par des entreprises du monde entier pour fournir des solutions technologiques axées sur la valeur."
+    },
+    "whyChooseUs": {
+      "title": "Pourquoi Nous Choisir",
+      "subtitle": "Nous offrons une expertise incomparable et un engagement envers votre succès.",
+      "expertise": {
+        "title": "Expertise Éprouvée",
+        "description": "Des décennies d'expérience combinée en IT et Ingénierie."
+      },
+      "solutions": {
+        "title": "Solutions Sur Mesure",
+        "description": "Stratégies personnalisées pour vos besoins commerciaux uniques."
+      },
+      "support": {
+        "title": "Support 24/7",
+        "description": "Toujours là pour garantir le bon fonctionnement de vos opérations."
+      },
+      "global": {
+        "title": "Portée Mondiale",
+        "description": "Servir des entreprises dans plusieurs pays et industries."
+      }
+    },
+    "team": {
+      "title": "Rencontrez nos experts",
+      "subtitle": "Nos professionnels passionnés réunissent technologie et innovation pour votre succès.",
+      "member1": {
+        "name": "Najeeb Ullah Mian",
+        "role": "PDG"
+      },
+      "member2": {
+        "name": "Muhammad Safi Ullah",
+        "role": "Directeur MTI"
+      }
+    },
+    "technologies": {
+      "title": "Technologies avec lesquelles nous travaillons",
+      "subtitle": "Notre expertise s'étend aux dernières technologies et plateformes."
+    }
+  },
+  "counters": {
+    "projectCount": {
+      "title": "Projets Réussis Livrés à l'Échelle Mondiale",
+      "suffix": "+"
+    },
+    "clientCount": {
+      "title": "Clients Satisfaits dans Plusieurs Industries",
+      "suffix": "+"
+    },
+    "experienceCount": {
+      "title": "Années d'Expérience Combinée de l'Équipe",
+      "suffix": "+"
+    }
+  },
+   "testimonials": {
+    "testimonial1": {
+      "text": "L'équipe a dépassé nos attentes ! Leurs solutions IT innovantes ont rationalisé nos processus et ont considérablement augmenté la productivité.",
+      "name": "Alex Johnson",
+      "role": "CTO, TechNova Solutions"
+    },
+    "testimonial2": {
+      "text": "Expertise d'ingénierie exceptionnelle ! Ils ont livré notre projet en avance sur le calendrier sans compromettre la qualité.",
+      "name": "Maria Rodriguez",
+      "role": "Chef des Opérations, BuildPro Inc."
+    },
+    "testimonial3": {
+      "text": "Leurs services de migration cloud nous ont fait économiser des milliers en coûts d'infrastructure tout en améliorant la fiabilité du système.",
+      "name": "David Lee",
+      "role": "Directeur IT, SkyNet Corp."
+    },
+    "testimonial4": {
+      "text": "Du concept au déploiement, le développement de l'application mobile a été fluide. Nos utilisateurs adorent le design intuitif !",
+      "name": "Sophia Williams",
+      "role": "Chef de Produit, AppFlow"
+    },
+    "testimonial5": {
+      "text": "La cybersécurité était une préoccupation majeure pour nous. Leur approche proactive nous a donné une tranquillité d'esprit totale.",
+      "name": "Michael Brown",
+      "role": "PDG, SecureData Inc."
+    },
+    "testimonial6": {
+      "text": "Notre partenariat a été phénoménal. Leur expertise en gestion de projet a assuré une livraison ponctuelle à chaque fois.",
+      "name": "Emma Davis",
+      "role": "COO, InnovateX"
+    },
+    "testimonial7": {
+      "text": "Service et support exceptionnels ! Ils étaient disponibles 24h/24 et 7j/7 pendant les étapes critiques de notre déploiement de projet.",
+      "name": "James Carter",
+      "role": "Directeur Général, AlphaTech"
+    },
+    "testimonial8": {
+      "text": "Leurs solutions d'ingénierie sont véritablement de classe mondiale. Je les recommande vivement pour les projets industriels complexes.",
+      "name": "Olivia Martinez",
+      "role": "VP Ingénierie, Structura"
+    }
+  },
+  "contact": {
+    "pageTitle": "Contactez-nous",
+    "title": "Contactez-nous",
+    "subtitle": "Des questions ? Contactez-nous.",
+    "info": {
+      "phone": {
+        "title": "Contactez-nous par téléphone",
+        "content": "+1(780)-800-8561"
+      },
+      "email": {
+        "title": "Adresse e-mail",
+        "content": "info@miantechnical.net"
+      },
+      "location": {
+        "title": "Localisation",
+        "content": "Saskatoon, Canada"
+      }
+    }
+  },
+   "contact2": {
+    "title": "Contactez-nous.",
+    "description": "Connectons-nous ! Partagez vos coordonnées et nous vous répondrons dès que possible.",
+    "imageAlt": "miantechnical"
+  },
+"contactForm": {
+    "successMessage": "Votre message a été envoyé avec succès. Nous vous contacterons bientôt.",
+    "submitButton": "Envoyer maintenant",
+    "fields": {
+      "name": {
+        "placeholder": "Votre nom"
+      },
+      "email": {
+        "placeholder": "Votre email"
+      },
+      "phone": {
+        "placeholder": "Numéro de téléphone"
+      },
+      "subject": {
+        "placeholder": "Sujet"
+      },
+      "message": {
+        "placeholder": "Votre message"
+      }
     }
   }
 }

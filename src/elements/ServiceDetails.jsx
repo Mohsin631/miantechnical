@@ -7,16 +7,19 @@ import ScrollToTop from "react-scroll-up";
 import { FiChevronUp } from "react-icons/fi";
 import Header from "../component/header/Header";
 import Footer from "../component/footer/Footer";
+import { useTranslation } from "react-i18next";
 
 import serviceImg from "../assets/images/service/service-01.png";
 import serviceImg2 from "../assets/images/service/service-02.png";  
 
 
 const ServiceDetails = () => {
+   const { t } = useTranslation();
   const { slug } = useParams();
   const [isOpen, setIsOpen] = useState(false);
 
-  const service = servicesData.find((item) => item.slug === slug);
+  const serviceData = servicesData(t);
+  const service = serviceData.find((item) => item.slug === slug);
 
   const history = useHistory();
 
