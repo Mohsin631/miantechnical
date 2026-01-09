@@ -206,14 +206,31 @@ const About = () => {
         </div>
       </div>
 
-      {/* Technologies Section */}
-      <div className="rn-brand-area brand-separation bg_color--5 ptb--120">
-        <div className="container">
-          <div className="section-title text-center mb--40">
-            <h2 className="title">{t("about.technologies.title")}</h2>
-            <p>{t("about.technologies.subtitle")}</p>
+      {/* Enhanced Technologies Section */}
+      <div className="relative overflow-hidden bg-gradient-to-b from-gray-50 to-white dark:from-gray-900 dark:to-gray-800 py-20 md:py-28">
+        {/* Background pattern */}
+        <div className="absolute inset-0 opacity-5">
+          <div className="absolute top-0 left-0 w-64 h-64 bg-purple-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob"></div>
+          <div className="absolute top-0 right-0 w-64 h-64 bg-yellow-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000"></div>
+          <div className="absolute -bottom-8 left-20 w-64 h-64 bg-pink-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000"></div>
+        </div>
+        
+        <div className="container relative z-10">
+          <div className="text-center mb-12 md:mb-4">
+          
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 dark:text-white mb-4">
+              {t("about.technologies.title")}
+              <span className="block w-16 h-1 bg-gradient-to-r from-red-200 to-red-500 mx-auto mt-4 rounded-full"></span>
+            </h2>
+            <p className="text-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
+              {t("about.technologies.subtitle")}
+            </p>
           </div>
-          <Technologies />
+          
+          <div className="mb-12">
+            <Technologies />
+          </div>
+          
         </div>
       </div>
 

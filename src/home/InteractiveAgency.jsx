@@ -1,9 +1,8 @@
-
 import React from "react";
 import { useTranslation } from "react-i18next";
 import { ProgressBar } from "react-bootstrap";
 import Helmet from "../component/common/Helmet";
-import VideoSecionComponent from "../home/VideoSection"
+import VideoSecionComponent from "../home/VideoSection";
 import { Link } from "react-router-dom";
 import ScrollToTop from "react-scroll-up";
 import Slider from "react-slick";
@@ -124,29 +123,29 @@ const InteractiveAgency = () => {
         <div className="slider-activation">
           {SlideList.map((value, index) => (
             <div
-              className={`slide slide-style-2 d-flex align-items-center justify-content-center bg_image ${value.bgImage}`}
+              className={`slide slide-style-2 d-flex align-items-center md:px-20 xl:px-20 2xl:px-20 bg_image ${value.bgImage}`}
               key={index}
               data-black-overlay="8"
             >
-              <div className="container p-0">
+              <div className="">
                 <div className="row">
                   <div className="col-lg-12">
-                    <div className={`inner ${value.textPosition}`}>
+                    <div className={`${value.textPosition}`}>
                       {value.category ? <span>{value.category}</span> : ""}
                       {value.title ? (
-                        <h1 className="title wrap">{value.title}</h1>
+                        <h1 className="title  wrap text-4xl md:text-7xl xl:text-7xl 2xl:text-7xl max-w-5xl text-white py-1 px-3">{value.title}</h1>
                       ) : (
                         ""
                       )}
                       {value.description ? (
-                        <p className="description">{value.description}</p>
+                        <p className="description text-1xl max-w-3xl text-white mb-3 py-3 px-3">{value.description}</p>
                       ) : (
                         ""
                       )}
                       {value.buttonText ? (
-                        <div className="slide-btn">
+                        <div className="slide-btn px-3">
                           <a
-                            className="rn-button-style--2 btn-solid"
+                            className="rn-button-style--2 btn-solid py-3"
                             href={`${value.buttonLink}`}
                           >
                             {value.buttonText}
@@ -400,9 +399,11 @@ const InteractiveAgency = () => {
       {/* End Brand Area */}
 
       {/* Start Back To Top */}
-      <div className="backto-top">
+      <div className="backto-top fixed bottom-8 right-8 z-50">
         <ScrollToTop showUnder={160}>
-          <FiChevronUp />
+          <div className="w-12 h-12 rounded-full bg-gradient-to-r from-gray-800 to-gray-900 shadow-lg hover:shadow-xl transition-all duration-300 flex items-center justify-center hover:scale-105 active:scale-95">
+            <FiChevronUp className="text-white text-xl" />
+          </div>
         </ScrollToTop>
       </div>
       {/* End Back To Top */}
@@ -413,4 +414,3 @@ const InteractiveAgency = () => {
 };
 
 export default InteractiveAgency;
-
