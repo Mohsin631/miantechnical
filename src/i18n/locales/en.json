@@ -1,30 +1,31 @@
 {
-    "nav": {
-        "home": "Home",
-        "services": "Services",
-        "projects": "Projects",
-        "about": "About",
-        "contact": "Contact"
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "projects": "Projects",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "footer": {
+    "cta": {
+      "boxTitle": "Bring Your Vision to Life",
+      "boxSubtitle": "We design and build scalable, powerful, and beautiful digital experiences for startups and enterprises.",
+      "btnText": "Let’s Build Together"
     },
-    "footer": {
-        "cta": {
-            "boxTitle": "Bring Your Vision to Life",
-            "boxSubtitle": "We design and build scalable, powerful, and beautiful digital experiences for startups and enterprises.",
-            "btnText": "Let’s Build Together"
-        },
-        "description": "Building innovation through technology. Your vision, our code.",
-        "quickLinks": {
-            "title": "Quick Links"
-        },
-        "contact": {
-            "title": "Contact",
-            "email": "info@miantechnical.net",
-            "phone": "+1 (780) 800-8561",
-            "location": "Saskatoon, Canada"
-        },
-        "copyright": "Mian Technical Incorporated. All rights reserved."
+    "description": "Building innovation through technology. Your vision, our code.",
+    "quickLinks": {
+      "title": "Quick Links"
     },
-    "breadcrumb": {
+    "contact": {
+      "title": "Contact",
+      "email": "info@miantechnical.net",
+      "phone": "+1 (780) 800-8561",
+      "location": "Saskatoon, Canada"
+    },
+    "copyright": "Mian Technical Incorporated. All rights reserved."
+  },
+  "breadcrumb": {
     "home": "Home",
     "services": "Services",
     "about": "About",
@@ -32,242 +33,242 @@
     "blog": "Blog",
     "contact": "Contact"
   },
-    "home": {
-        "meta": {
-            "pageTitle": "Home"
-        },
-        "hero": {
-            "category": "Mian Technical",
-            "title": "Cutting-edge IT & Engineering Solutions",
-            "description": "We deliver innovative technology and engineering services that enhance efficiency, foster growth, and drive digital transformation.",
-            "buttonText": "Contact Us"
-        },
-        "about": {
-            "title": "Who We Are",
-            "description": "We are a trusted technology and engineering solutions partner dedicated to empowering businesses with cutting-edge innovations. Our mission is to deliver transformative IT services and engineering expertise that enhance efficiency, drive growth, and create lasting impact for our clients worldwide.",
-            "coreStrengthsTitle": "Our Core Strengths",
-            "strengths": {
-                "designUx": "Innovative Design & UX",
-                "engineeringPM": "Engineering & Project Management",
-                "marketing": "Digital Marketing Strategy",
-                "softwareApps": "Custom Software & App Development"
-            }
-        },
-        "services": {
-            "title": "Our Services",
-            "subtitle": "We provide a wide range of IT and engineering services designed to empower your business with innovation, security, and growth.",
-            "items": {
-                "itConsulting": {
-                    "title": "IT Consulting",
-                    "description": "Strategic technology advisory to align IT solutions with your business objectives."
-                },
-                "customSoftware": {
-                    "title": "Custom Software Development",
-                    "description": "Tailored software applications to optimize workflows and deliver business value."
-                },
-                "digitalMarketing": {
-                    "title": "Digital Marketing Solutions",
-                    "description": "Innovative strategies to boost your brand presence and customer engagement."
-                },
-                "mobileApp": {
-                    "title": "Mobile App Development",
-                    "description": "Cross-platform mobile apps with intuitive UI and seamless user experience."
-                },
-                "cloud": {
-                    "title": "Cloud Infrastructure & Services",
-                    "description": "Secure and scalable cloud solutions for improved flexibility and cost efficiency."
-                },
-                "cybersecurity": {
-                    "title": "Cybersecurity & Compliance",
-                    "description": "Robust security solutions to safeguard data and ensure regulatory compliance."
-                },
-                "mechanical": {
-                    "title": "Mechanical Engineering Services",
-                    "description": "Design, analysis, and optimization of mechanical systems to ensure performance and reliability."
-                },
-                "electrical": {
-                    "title": "Electrical Engineering Solutions",
-                    "description": "Power systems, automation, and electrical designs for industrial and commercial projects."
-                },
-                "civil": {
-                    "title": "Civil & Structural Engineering",
-                    "description": "Comprehensive structural design and project planning for sustainable infrastructure."
-                },
-                "productDesign": {
-                    "title": "Product Design & Prototyping",
-                    "description": "End-to-end product development, from concept design to functional prototypes."
-                },
-                "automation": {
-                    "title": "Automation & Control Systems",
-                    "description": "Smart automation solutions to enhance operational efficiency and reduce downtime."
-                },
-                "projectManagement": {
-                    "title": "Project Management & Engineering Consultancy",
-                    "description": "Expert planning, execution, and consulting services to ensure project success."
-                }
-            }
-        },
-        "video": {
-            "title": "Elevate Your Digital Experience",
-            "subtitle": "Immerse yourself in high-impact visuals and seamless performance",
-            "buttonText": "Get Started",
-            "fallback": "Your browser does not support the video tag."
-        }
+  "home": {
+    "meta": {
+      "pageTitle": "Home"
+    },
+    "hero": {
+      "category": "Mian Technical",
+      "title": "Cutting-edge IT & Engineering Solutions",
+      "description": "We deliver innovative technology and engineering services that enhance efficiency, foster growth, and drive digital transformation.",
+      "buttonText": "Contact Us"
+    },
+    "about": {
+      "title": "Who We Are",
+      "description": "We are a trusted technology and engineering solutions partner dedicated to empowering businesses with cutting-edge innovations. Our mission is to deliver transformative IT services and engineering expertise that enhance efficiency, drive growth, and create lasting impact for our clients worldwide.",
+      "coreStrengthsTitle": "Our Core Strengths",
+      "strengths": {
+        "designUx": "Innovative Design & UX",
+        "engineeringPM": "Engineering & Project Management",
+        "marketing": "Digital Marketing Strategy",
+        "softwareApps": "Custom Software & App Development"
+      }
     },
     "services": {
-        "itServices": {
-        "title": "IT Services",
-        "description": "Empowering businesses with innovative IT solutions that drive efficiency, security, and growth."
-      },
-      "engineeringServices": {
-        "title": "Engineering Services",
-        "description": "Delivering world-class engineering solutions to design, optimize, and build for the future."
-      },
+      "title": "Our Services",
+      "subtitle": "We provide a wide range of IT and engineering services designed to empower your business with innovation, security, and growth.",
+      "items": {
         "itConsulting": {
-            "title": "IT Consulting",
-            "description": "Strategic advisory to align your technology roadmap with business goals, budget, and delivery timelines.",
-            "fullDescription": "Our IT Consulting service helps organizations make confident technology decisions that support real business outcomes. We begin by understanding your goals, team structure, current systems, and pain points, then translate that into a practical roadmap that your team can actually execute. We review your infrastructure, applications, security posture, and operational workflows to identify risks, bottlenecks, and quick wins. From choosing the right architecture to defining governance and improving delivery processes, we focus on clarity and measurable impact.\n\nYou'll receive a prioritized plan with clear phases, effort estimates, and recommendations that fit your budget and timelines. When needed, we support vendor selection, cloud strategy, modernization, and project rescue without forcing unnecessary tools or rebuilds. We also work with your internal stakeholders to ensure adoption, knowledge transfer, and sustainable operations. Our goal is simple: help you reduce technical debt, improve reliability, and create an IT foundation that scales as your organization grows. Throughout the engagement, we provide transparent communication, documentation, and actionable guidance to keep every decision aligned with your strategy.",
-            "process": [
-                "Analyze existing IT infrastructure",
-                "Identify gaps and opportunities",
-                "Develop strategic IT roadmap",
-                "Implement optimized solutions",
-                "Monitor and continuously improve"
-            ]
+          "title": "IT Consulting",
+          "description": "Strategic technology advisory to align IT solutions with your business objectives."
         },
         "customSoftware": {
-            "title": "Custom Software Development",
-            "description": "Build reliable software tailored to your workflows secure, scalable, and ready for long-term growth.",
-            "fullDescription": "We design and develop custom software that fits your business processes instead of forcing your team to adapt to generic tools. Our approach starts with discovery and clear requirements, followed by UI/UX design that keeps user experience simple and efficient. We then build with modern, maintainable architecture, clean code practices, and a focus on performance and security. Whether you need an internal system, a customer portal, an ERP/CRM extension, or an end-to-end SaaS platform, we deliver software that is stable, testable, and easy to evolve.\n\nWe work in iterative cycles so you can see progress early and provide feedback continuously. This reduces risk and ensures the final product matches real-world needs. We implement robust APIs, integrations, authentication, role-based access, logging, and analytics where required. Quality assurance is included throughout the lifecycle, with automated checks and manual testing to prevent regressions. After launch, we provide support, monitoring, and enhancements so your platform stays aligned with changing requirements. The result is a dependable product that improves operations, increases productivity, and delivers measurable value.",
-            "process": [
-                "Requirement gathering and analysis",
-                "UI/UX design and prototyping",
-                "Custom development and coding",
-                "Quality assurance and testing",
-                "Deployment and post-launch support"
-            ]
+          "title": "Custom Software Development",
+          "description": "Tailored software applications to optimize workflows and deliver business value."
         },
         "digitalMarketing": {
-            "title": "Digital Marketing Solutions",
-            "description": "Performance-focused marketing that improves visibility, generates leads, and strengthens your brand online.",
-            "fullDescription": "Our Digital Marketing Solutions are designed to produce measurable growth not just impressions. We combine strategy, creative execution, and performance tracking to build campaigns that attract the right audience and convert them into customers. We start with research: your market, competitors, customer personas, and current funnel performance. Based on insights, we create a tailored plan that includes SEO, content strategy, paid advertising, social media campaigns, and conversion optimization.\n\nWe focus on high-quality messaging that matches your brand voice and speaks to real customer needs. Our SEO work improves technical health, on-page relevance, and authority through content and ethical outreach. For paid campaigns, we build structured ad sets, landing pages, and tracking so every click is accountable. We monitor performance continuously and iterate weekly to improve ROI and lower acquisition costs. Reporting is clear and business-focused: leads, conversions, revenue impact, and next actions. Whether you're launching a new service or scaling an established brand, we help you grow sustainably with a marketing system you can trust.",
-            "process": [
-                "Market and competitor analysis",
-                "Develop tailored marketing strategy",
-                "Execute campaigns across channels",
-                "Track and analyze performance metrics",
-                "Continuous optimization for better ROI"
-            ]
+          "title": "Digital Marketing Solutions",
+          "description": "Innovative strategies to boost your brand presence and customer engagement."
         },
         "mobileApp": {
-            "title": "Mobile App Development",
-            "description": "Modern iOS and Android apps with smooth UX, scalable architecture, and secure backend integrations.",
-            "fullDescription": "We build mobile applications that feel fast, look polished, and stay reliable as your user base grows. Our process begins with feature planning and user journeys, then moves into UI/UX design that prioritizes clarity, accessibility, and consistency. We develop cross-platform or native solutions depending on your product goals, performance needs, and budget. From authentication and user profiles to payments, location, push notifications, and real-time updates, we implement features with a focus on stability and maintainability.\n\nWe pay close attention to app performance, offline behavior, error handling, and device compatibility. Testing is done across multiple screen sizes and OS versions to reduce production issues. We also set up analytics and crash reporting so you can understand how users interact with the app and quickly address problems. If your app needs backend services, we build or integrate secure APIs with proper access control and monitoring. After release, we provide updates, improvements, and ongoing support to keep your app competitive. The outcome is a mobile experience that users enjoy and businesses can scale with confidence.",
-            "process": [
-                "Conceptualization and wireframing",
-                "UI/UX design",
-                "Native and cross-platform development",
-                "Testing on multiple devices",
-                "App deployment and updates"
-            ]
+          "title": "Mobile App Development",
+          "description": "Cross-platform mobile apps with intuitive UI and seamless user experience."
         },
-        "cloudSolutions": {
-            "title": "Cloud Solutions",
-            "description": "Cloud migration and optimization to improve reliability, reduce cost, and strengthen security and compliance.",
-            "fullDescription": "Our Cloud Solutions help you move to the cloud safely and operate efficiently once you're there. We support cloud adoption for AWS, Azure, and Google Cloud, including architecture planning, migration, modernization, and ongoing optimization. We begin with a readiness assessment to review workloads, dependencies, data sensitivity, and performance requirements. Then we recommend an architecture that balances cost, security, and scalability whether that's lift-and-shift, re-platform, or refactor.\n\nDuring migration, we focus on minimizing downtime, protecting data, and validating performance. We implement best practices for networking, identity and access management, backup strategies, and observability. After deployment, we optimize resources and implement cost controls, alerts, and right-sizing practices to prevent budget surprises. For teams that need it, we provide documentation, handover training, and operational runbooks. The goal is a cloud environment that is stable, secure, and easy to manage so your business can scale quickly without sacrificing control or reliability.",
-            "process": [
-                "Cloud readiness assessment",
-                "Select optimal cloud architecture",
-                "Migrate data and applications",
-                "Optimize performance and costs",
-                "Ongoing monitoring and support"
-            ]
+        "cloud": {
+          "title": "Cloud Infrastructure & Services",
+          "description": "Secure and scalable cloud solutions for improved flexibility and cost efficiency."
         },
         "cybersecurity": {
-            "title": "Cybersecurity Services",
-            "description": "End-to-end protection with assessments, controls, monitoring, and compliance support to reduce cyber risk.",
-            "fullDescription": "Cybersecurity is not a one-time project it's an ongoing capability. Our Cybersecurity Services help protect your organization's systems, data, and users through practical controls and continuous improvement. We start with a security assessment that reviews infrastructure, applications, access control, configuration, and incident readiness. We identify vulnerabilities, prioritize remediation, and design a security plan that matches your risk profile and regulatory requirements.\n\nWe implement security controls such as MFA, least-privilege access, secure network segmentation, endpoint protection, logging, and monitoring. For application security, we support secure coding practices, dependency reviews, and testing. We can also help with policies, procedures, security awareness training, and compliance preparation where required. Our goal is to improve your security posture without creating unnecessary complexity. With clear reporting and actionable recommendations, you'll know what matters most and what to do next. The result is stronger defenses, better visibility, and improved resilience against modern threats.",
-            "process": [
-                "Conduct security risk assessment",
-                "Identify vulnerabilities and threats",
-                "Deploy security frameworks",
-                "Monitor and respond to threats",
-                "Regular audits and compliance checks"
-            ]
+          "title": "Cybersecurity & Compliance",
+          "description": "Robust security solutions to safeguard data and ensure regulatory compliance."
         },
-        "mechanicalEngineering": {
-            "title": "Mechanical Engineering",
-            "description": "Mechanical design, analysis, and optimization to improve performance, reliability, and manufacturability.",
-            "fullDescription": "Our Mechanical Engineering services support product and industrial projects from concept through detailed design and validation. We help clients turn requirements into manufacturable solutions by combining engineering fundamentals with practical production constraints. Our team performs design, modeling, simulation, and documentation for mechanical systems and components, focusing on durability, efficiency, and safety. We can support assemblies, mechanisms, housings, fixtures, tooling concepts, and system layouts depending on your project scope.\n\nWe use structured design reviews and analysis to validate performance under expected loads and operating conditions. When required, we assess materials, tolerances, and manufacturing methods to reduce cost and improve reliability. We also generate technical drawings and BOMs aligned with common standards so your fabrication and procurement teams can move forward confidently. Throughout the engagement, we communicate clearly, document decisions, and collaborate with your stakeholders to ensure the solution matches both technical and business objectives. The outcome is an engineered deliverable that is practical, testable, and ready for implementation.",
-            "process": [
-                "Analyze requirements and constraints",
-                "Create conceptual designs",
-                "Simulate and optimize performance",
-                "Develop detailed engineering drawings",
-                "Prototype and final implementation"
-            ]
+        "mechanical": {
+          "title": "Mechanical Engineering Services",
+          "description": "Design, analysis, and optimization of mechanical systems to ensure performance and reliability."
         },
-        "electricalEngineering": {
-            "title": "Electrical Engineering",
-            "description": "Electrical design and automation support for industrial and commercial systems, with safety and compliance in mind.",
-            "fullDescription": "We deliver Electrical Engineering solutions for power distribution, control systems, and industrial automation projects. Our team supports design, documentation, and implementation planning for systems that must be safe, reliable, and compliant with applicable standards. We work with clients to define electrical requirements, select appropriate components, and create clear schematics and layouts that can be executed in the field.\n\nFor automation, we help design control architectures, IO mapping, and integration with sensors, actuators, and PLC/SCADA environments where needed. We focus on operational reliability, maintainability, and clear documentation so your technicians can troubleshoot and operate systems efficiently. When required, we support testing plans, commissioning checklists, and handover documentation to reduce risk during deployment. Our goal is to provide electrical designs that improve uptime, reduce energy waste, and support long-term system performance. Whether it's a new installation or an upgrade, we help you deliver with confidence and clarity.",
-            "process": [
-                "Evaluate electrical requirements",
-                "Design power and control systems",
-                "Implement automation frameworks",
-                "Testing and safety compliance checks",
-                "Final commissioning and support"
-            ]
+        "electrical": {
+          "title": "Electrical Engineering Solutions",
+          "description": "Power systems, automation, and electrical designs for industrial and commercial projects."
         },
-        "civilEngineering": {
-            "title": "Civil & Structural Engineering",
-            "description": "Structural planning and design support for safe, efficient, and durable infrastructure and building projects.",
-            "fullDescription": "Our Civil & Structural Engineering services help clients plan and deliver safe, efficient, and buildable structures. We support projects from early feasibility through detailed design, focusing on structural integrity, constructability, and long-term performance. We collaborate with stakeholders to understand site conditions, functional requirements, and budget constraints, then develop design outputs that meet those needs responsibly.\n\nOur work can include preliminary layout guidance, structural analysis, coordination with other disciplines, and documentation suitable for construction execution. We emphasize clarity in drawings and specifications so contractors can build accurately and efficiently. We also prioritize safety, considering load paths, stability, durability, and relevant building codes. Where required, we support design reviews and quality checks to reduce risk during construction. The outcome is a structural solution that balances safety, cost, and schedule helping your project move forward with confidence.",
-            "process": [
-                "Feasibility and site analysis",
-                "Design structural framework",
-                "Create detailed construction plans",
-                "Oversee construction execution",
-                "Perform inspections and quality checks"
-            ]
+        "civil": {
+          "title": "Civil & Structural Engineering",
+          "description": "Comprehensive structural design and project planning for sustainable infrastructure."
         },
         "productDesign": {
-            "title": "Product Design & Prototyping",
-            "description": "From concept to prototype industrial design, CAD, and validation to prepare your product for manufacturing.",
-            "fullDescription": "We help businesses transform ideas into tangible, testable products through structured design and prototyping. Our Product Design & Prototyping service covers concept development, CAD modeling, usability considerations, and iterative refinement. We focus on building products that are not only visually appealing, but also functional, manufacturable, and aligned with real user needs.\n\nWe start by clarifying requirements and defining success criteria, then produce concepts that balance performance, cost, materials, and production constraints. Using CAD tools, we develop prototypes or prototype-ready models that can be tested for fit, function, and assembly. We also support design refinement based on feedback, helping you move from early iterations to a version suitable for manufacturing handoff. Our goal is to reduce uncertainty before production by validating key decisions early. The result is a clearer path to launch, fewer costly revisions, and a product experience that customers trust.",
-            "process": [
-                "Gather product requirements",
-                "Design initial concept models",
-                "Develop prototypes using CAD tools",
-                "Test and refine functionality",
-                "Finalize design for manufacturing"
-            ]
+          "title": "Product Design & Prototyping",
+          "description": "End-to-end product development, from concept design to functional prototypes."
         },
         "automation": {
-            "title": "Automation & Control Systems",
-            "description": "Automation planning and control design to improve productivity, reduce errors, and increase operational visibility.",
-            "fullDescription": "Our Automation & Control Systems service helps organizations streamline operations by implementing reliable automation strategies and control system designs. We analyze current workflows to identify repetitive tasks, error-prone steps, and opportunities for improved throughput. Then we define an automation approach that fits your environment whether industrial processes, building systems, or operational workflows that require monitoring and control.\n\nWe support control architecture design, integration planning, and documentation to ensure your team can implement and maintain the system effectively. Our focus is practical delivery: safety, reliability, and maintainability come first. We can also help define testing and commissioning checklists, as well as operator training and handover materials to reduce downtime during adoption. By introducing the right controls and visibility, you can reduce operating cost, improve consistency, and scale production with fewer disruptions. The result is a smarter, more predictable system that supports long-term growth.",
-            "process": [
-                "Process analysis and automation planning",
-                "Design control system architecture",
-                "Implement automation solutions",
-                "Conduct system testing and training",
-                "Ongoing monitoring and optimization"
-            ]
+          "title": "Automation & Control Systems",
+          "description": "Smart automation solutions to enhance operational efficiency and reduce downtime."
         },
         "projectManagement": {
-            "title": "Project Management & Consultancy",
-            "description": "Structured project delivery support planning, coordination, and reporting to keep engineering projects on track.",
-            "fullDescription": "We provide Project Management & Consultancy services to help engineering and technology projects stay aligned, controlled, and deliverable. Many projects fail not due to effort, but due to unclear scope, shifting priorities, and weak coordination. We address those gaps by establishing clear objectives, timelines, responsibilities, and communication rhythms that keep stakeholders aligned.\n\nOur team supports planning, scheduling, risk management, and progress reporting so leaders can make informed decisions early before small issues become expensive delays. We help define scope boundaries, manage dependencies, coordinate vendors and internal teams, and implement practical governance suited to your organization. When needed, we provide recovery support for projects that have slipped, including re-scoping, re-planning, and delivery stabilization. The outcome is a more predictable delivery process, better accountability, and higher confidence in results. We focus on execution that respects budget, schedule, and quality so projects close successfully and stakeholders remain satisfied.",
-            "process": [
-                "Define project objectives and scope",
-                "Develop detailed project plan",
-                "Allocate resources and assign tasks",
-                "Monitor progress and manage risks",
-                "Deliver final project report and closure"
-            ]
+          "title": "Project Management & Engineering Consultancy",
+          "description": "Expert planning, execution, and consulting services to ensure project success."
         }
+      }
     },
+    "video": {
+      "title": "Elevate Your Digital Experience",
+      "subtitle": "Immerse yourself in high-impact visuals and seamless performance",
+      "buttonText": "Get Started",
+      "fallback": "Your browser does not support the video tag."
+    }
+  },
+  "services": {
+    "itServices": {
+      "title": "IT Services",
+      "description": "Empowering businesses with innovative IT solutions that drive efficiency, security, and growth."
+    },
+    "engineeringServices": {
+      "title": "Engineering Services",
+      "description": "Delivering world-class engineering solutions to design, optimize, and build for the future."
+    },
+    "itConsulting": {
+      "title": "IT Consulting",
+      "description": "Strategic advisory to align your technology roadmap with business goals, budget, and delivery timelines.",
+      "fullDescription": "Our IT Consulting service helps organizations make confident technology decisions that support real business outcomes. We begin by understanding your goals, team structure, current systems, and pain points, then translate that into a practical roadmap that your team can actually execute. We review your infrastructure, applications, security posture, and operational workflows to identify risks, bottlenecks, and quick wins. From choosing the right architecture to defining governance and improving delivery processes, we focus on clarity and measurable impact.\n\nYou'll receive a prioritized plan with clear phases, effort estimates, and recommendations that fit your budget and timelines. When needed, we support vendor selection, cloud strategy, modernization, and project rescue without forcing unnecessary tools or rebuilds. We also work with your internal stakeholders to ensure adoption, knowledge transfer, and sustainable operations. Our goal is simple: help you reduce technical debt, improve reliability, and create an IT foundation that scales as your organization grows. Throughout the engagement, we provide transparent communication, documentation, and actionable guidance to keep every decision aligned with your strategy.",
+      "process": [
+        "Analyze existing IT infrastructure",
+        "Identify gaps and opportunities",
+        "Develop strategic IT roadmap",
+        "Implement optimized solutions",
+        "Monitor and continuously improve"
+      ]
+    },
+    "customSoftware": {
+      "title": "Custom Software Development",
+      "description": "Build reliable software tailored to your workflows secure, scalable, and ready for long-term growth.",
+      "fullDescription": "We design and develop custom software that fits your business processes instead of forcing your team to adapt to generic tools. Our approach starts with discovery and clear requirements, followed by UI/UX design that keeps user experience simple and efficient. We then build with modern, maintainable architecture, clean code practices, and a focus on performance and security. Whether you need an internal system, a customer portal, an ERP/CRM extension, or an end-to-end SaaS platform, we deliver software that is stable, testable, and easy to evolve.\n\nWe work in iterative cycles so you can see progress early and provide feedback continuously. This reduces risk and ensures the final product matches real-world needs. We implement robust APIs, integrations, authentication, role-based access, logging, and analytics where required. Quality assurance is included throughout the lifecycle, with automated checks and manual testing to prevent regressions. After launch, we provide support, monitoring, and enhancements so your platform stays aligned with changing requirements. The result is a dependable product that improves operations, increases productivity, and delivers measurable value.",
+      "process": [
+        "Requirement gathering and analysis",
+        "UI/UX design and prototyping",
+        "Custom development and coding",
+        "Quality assurance and testing",
+        "Deployment and post-launch support"
+      ]
+    },
+    "digitalMarketing": {
+      "title": "Digital Marketing Solutions",
+      "description": "Performance-focused marketing that improves visibility, generates leads, and strengthens your brand online.",
+      "fullDescription": "Our Digital Marketing Solutions are designed to produce measurable growth not just impressions. We combine strategy, creative execution, and performance tracking to build campaigns that attract the right audience and convert them into customers. We start with research: your market, competitors, customer personas, and current funnel performance. Based on insights, we create a tailored plan that includes SEO, content strategy, paid advertising, social media campaigns, and conversion optimization.\n\nWe focus on high-quality messaging that matches your brand voice and speaks to real customer needs. Our SEO work improves technical health, on-page relevance, and authority through content and ethical outreach. For paid campaigns, we build structured ad sets, landing pages, and tracking so every click is accountable. We monitor performance continuously and iterate weekly to improve ROI and lower acquisition costs. Reporting is clear and business-focused: leads, conversions, revenue impact, and next actions. Whether you're launching a new service or scaling an established brand, we help you grow sustainably with a marketing system you can trust.",
+      "process": [
+        "Market and competitor analysis",
+        "Develop tailored marketing strategy",
+        "Execute campaigns across channels",
+        "Track and analyze performance metrics",
+        "Continuous optimization for better ROI"
+      ]
+    },
+    "mobileApp": {
+      "title": "Mobile App Development",
+      "description": "Modern iOS and Android apps with smooth UX, scalable architecture, and secure backend integrations.",
+      "fullDescription": "We build mobile applications that feel fast, look polished, and stay reliable as your user base grows. Our process begins with feature planning and user journeys, then moves into UI/UX design that prioritizes clarity, accessibility, and consistency. We develop cross-platform or native solutions depending on your product goals, performance needs, and budget. From authentication and user profiles to payments, location, push notifications, and real-time updates, we implement features with a focus on stability and maintainability.\n\nWe pay close attention to app performance, offline behavior, error handling, and device compatibility. Testing is done across multiple screen sizes and OS versions to reduce production issues. We also set up analytics and crash reporting so you can understand how users interact with the app and quickly address problems. If your app needs backend services, we build or integrate secure APIs with proper access control and monitoring. After release, we provide updates, improvements, and ongoing support to keep your app competitive. The outcome is a mobile experience that users enjoy and businesses can scale with confidence.",
+      "process": [
+        "Conceptualization and wireframing",
+        "UI/UX design",
+        "Native and cross-platform development",
+        "Testing on multiple devices",
+        "App deployment and updates"
+      ]
+    },
+    "cloudSolutions": {
+      "title": "Cloud Solutions",
+      "description": "Cloud migration and optimization to improve reliability, reduce cost, and strengthen security and compliance.",
+      "fullDescription": "Our Cloud Solutions help you move to the cloud safely and operate efficiently once you're there. We support cloud adoption for AWS, Azure, and Google Cloud, including architecture planning, migration, modernization, and ongoing optimization. We begin with a readiness assessment to review workloads, dependencies, data sensitivity, and performance requirements. Then we recommend an architecture that balances cost, security, and scalability whether that's lift-and-shift, re-platform, or refactor.\n\nDuring migration, we focus on minimizing downtime, protecting data, and validating performance. We implement best practices for networking, identity and access management, backup strategies, and observability. After deployment, we optimize resources and implement cost controls, alerts, and right-sizing practices to prevent budget surprises. For teams that need it, we provide documentation, handover training, and operational runbooks. The goal is a cloud environment that is stable, secure, and easy to manage so your business can scale quickly without sacrificing control or reliability.",
+      "process": [
+        "Cloud readiness assessment",
+        "Select optimal cloud architecture",
+        "Migrate data and applications",
+        "Optimize performance and costs",
+        "Ongoing monitoring and support"
+      ]
+    },
+    "cybersecurity": {
+      "title": "Cybersecurity Services",
+      "description": "End-to-end protection with assessments, controls, monitoring, and compliance support to reduce cyber risk.",
+      "fullDescription": "Cybersecurity is not a one-time project it's an ongoing capability. Our Cybersecurity Services help protect your organization's systems, data, and users through practical controls and continuous improvement. We start with a security assessment that reviews infrastructure, applications, access control, configuration, and incident readiness. We identify vulnerabilities, prioritize remediation, and design a security plan that matches your risk profile and regulatory requirements.\n\nWe implement security controls such as MFA, least-privilege access, secure network segmentation, endpoint protection, logging, and monitoring. For application security, we support secure coding practices, dependency reviews, and testing. We can also help with policies, procedures, security awareness training, and compliance preparation where required. Our goal is to improve your security posture without creating unnecessary complexity. With clear reporting and actionable recommendations, you'll know what matters most and what to do next. The result is stronger defenses, better visibility, and improved resilience against modern threats.",
+      "process": [
+        "Conduct security risk assessment",
+        "Identify vulnerabilities and threats",
+        "Deploy security frameworks",
+        "Monitor and respond to threats",
+        "Regular audits and compliance checks"
+      ]
+    },
+    "mechanicalEngineering": {
+      "title": "Mechanical Engineering",
+      "description": "Mechanical design, analysis, and optimization to improve performance, reliability, and manufacturability.",
+      "fullDescription": "Our Mechanical Engineering services support product and industrial projects from concept through detailed design and validation. We help clients turn requirements into manufacturable solutions by combining engineering fundamentals with practical production constraints. Our team performs design, modeling, simulation, and documentation for mechanical systems and components, focusing on durability, efficiency, and safety. We can support assemblies, mechanisms, housings, fixtures, tooling concepts, and system layouts depending on your project scope.\n\nWe use structured design reviews and analysis to validate performance under expected loads and operating conditions. When required, we assess materials, tolerances, and manufacturing methods to reduce cost and improve reliability. We also generate technical drawings and BOMs aligned with common standards so your fabrication and procurement teams can move forward confidently. Throughout the engagement, we communicate clearly, document decisions, and collaborate with your stakeholders to ensure the solution matches both technical and business objectives. The outcome is an engineered deliverable that is practical, testable, and ready for implementation.",
+      "process": [
+        "Analyze requirements and constraints",
+        "Create conceptual designs",
+        "Simulate and optimize performance",
+        "Develop detailed engineering drawings",
+        "Prototype and final implementation"
+      ]
+    },
+    "electricalEngineering": {
+      "title": "Electrical Engineering",
+      "description": "Electrical design and automation support for industrial and commercial systems, with safety and compliance in mind.",
+      "fullDescription": "We deliver Electrical Engineering solutions for power distribution, control systems, and industrial automation projects. Our team supports design, documentation, and implementation planning for systems that must be safe, reliable, and compliant with applicable standards. We work with clients to define electrical requirements, select appropriate components, and create clear schematics and layouts that can be executed in the field.\n\nFor automation, we help design control architectures, IO mapping, and integration with sensors, actuators, and PLC/SCADA environments where needed. We focus on operational reliability, maintainability, and clear documentation so your technicians can troubleshoot and operate systems efficiently. When required, we support testing plans, commissioning checklists, and handover documentation to reduce risk during deployment. Our goal is to provide electrical designs that improve uptime, reduce energy waste, and support long-term system performance. Whether it's a new installation or an upgrade, we help you deliver with confidence and clarity.",
+      "process": [
+        "Evaluate electrical requirements",
+        "Design power and control systems",
+        "Implement automation frameworks",
+        "Testing and safety compliance checks",
+        "Final commissioning and support"
+      ]
+    },
+    "civilEngineering": {
+      "title": "Civil & Structural Engineering",
+      "description": "Structural planning and design support for safe, efficient, and durable infrastructure and building projects.",
+      "fullDescription": "Our Civil & Structural Engineering services help clients plan and deliver safe, efficient, and buildable structures. We support projects from early feasibility through detailed design, focusing on structural integrity, constructability, and long-term performance. We collaborate with stakeholders to understand site conditions, functional requirements, and budget constraints, then develop design outputs that meet those needs responsibly.\n\nOur work can include preliminary layout guidance, structural analysis, coordination with other disciplines, and documentation suitable for construction execution. We emphasize clarity in drawings and specifications so contractors can build accurately and efficiently. We also prioritize safety, considering load paths, stability, durability, and relevant building codes. Where required, we support design reviews and quality checks to reduce risk during construction. The outcome is a structural solution that balances safety, cost, and schedule helping your project move forward with confidence.",
+      "process": [
+        "Feasibility and site analysis",
+        "Design structural framework",
+        "Create detailed construction plans",
+        "Oversee construction execution",
+        "Perform inspections and quality checks"
+      ]
+    },
+    "productDesign": {
+      "title": "Product Design & Prototyping",
+      "description": "From concept to prototype industrial design, CAD, and validation to prepare your product for manufacturing.",
+      "fullDescription": "We help businesses transform ideas into tangible, testable products through structured design and prototyping. Our Product Design & Prototyping service covers concept development, CAD modeling, usability considerations, and iterative refinement. We focus on building products that are not only visually appealing, but also functional, manufacturable, and aligned with real user needs.\n\nWe start by clarifying requirements and defining success criteria, then produce concepts that balance performance, cost, materials, and production constraints. Using CAD tools, we develop prototypes or prototype-ready models that can be tested for fit, function, and assembly. We also support design refinement based on feedback, helping you move from early iterations to a version suitable for manufacturing handoff. Our goal is to reduce uncertainty before production by validating key decisions early. The result is a clearer path to launch, fewer costly revisions, and a product experience that customers trust.",
+      "process": [
+        "Gather product requirements",
+        "Design initial concept models",
+        "Develop prototypes using CAD tools",
+        "Test and refine functionality",
+        "Finalize design for manufacturing"
+      ]
+    },
+    "automation": {
+      "title": "Automation & Control Systems",
+      "description": "Automation planning and control design to improve productivity, reduce errors, and increase operational visibility.",
+      "fullDescription": "Our Automation & Control Systems service helps organizations streamline operations by implementing reliable automation strategies and control system designs. We analyze current workflows to identify repetitive tasks, error-prone steps, and opportunities for improved throughput. Then we define an automation approach that fits your environment whether industrial processes, building systems, or operational workflows that require monitoring and control.\n\nWe support control architecture design, integration planning, and documentation to ensure your team can implement and maintain the system effectively. Our focus is practical delivery: safety, reliability, and maintainability come first. We can also help define testing and commissioning checklists, as well as operator training and handover materials to reduce downtime during adoption. By introducing the right controls and visibility, you can reduce operating cost, improve consistency, and scale production with fewer disruptions. The result is a smarter, more predictable system that supports long-term growth.",
+      "process": [
+        "Process analysis and automation planning",
+        "Design control system architecture",
+        "Implement automation solutions",
+        "Conduct system testing and training",
+        "Ongoing monitoring and optimization"
+      ]
+    },
+    "projectManagement": {
+      "title": "Project Management & Consultancy",
+      "description": "Structured project delivery support planning, coordination, and reporting to keep engineering projects on track.",
+      "fullDescription": "We provide Project Management & Consultancy services to help engineering and technology projects stay aligned, controlled, and deliverable. Many projects fail not due to effort, but due to unclear scope, shifting priorities, and weak coordination. We address those gaps by establishing clear objectives, timelines, responsibilities, and communication rhythms that keep stakeholders aligned.\n\nOur team supports planning, scheduling, risk management, and progress reporting so leaders can make informed decisions early before small issues become expensive delays. We help define scope boundaries, manage dependencies, coordinate vendors and internal teams, and implement practical governance suited to your organization. When needed, we provide recovery support for projects that have slipped, including re-scoping, re-planning, and delivery stabilization. The outcome is a more predictable delivery process, better accountability, and higher confidence in results. We focus on execution that respects budget, schedule, and quality so projects close successfully and stakeholders remain satisfied.",
+      "process": [
+        "Define project objectives and scope",
+        "Develop detailed project plan",
+        "Allocate resources and assign tasks",
+        "Monitor progress and manage risks",
+        "Deliver final project report and closure"
+      ]
+    }
+  },
   "about": {
     "pageTitle": "About Us",
     "title": "About Us",
@@ -359,7 +360,7 @@
       "suffix": "+"
     }
   },
- "testimonials": {
+  "testimonials": {
     "testimonial1": {
       "text": "The team exceeded our expectations! Their innovative IT solutions streamlined our processes and boosted productivity significantly.",
       "name": "Alex Johnson",
@@ -401,7 +402,7 @@
       "role": "VP Engineering, Structura"
     }
   },
-   "contact": {
+  "contact": {
     "pageTitle": "Contact Us",
     "title": "Contact With Us",
     "subtitle": "Have questions? Contact us.",
@@ -420,12 +421,12 @@
       }
     }
   },
-   "contact2": {
+  "contact2": {
     "title": "Contact Us.",
     "description": "Let's connect! Share your details and we'll respond as soon as possible.",
     "imageAlt": "miantechnical"
   },
-   "contactForm": {
+  "contactForm": {
     "successMessage": "Your message has been successfully sent. We will contact you soon.",
     "submitButton": "Submit Now",
     "fields": {

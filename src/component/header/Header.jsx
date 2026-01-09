@@ -82,6 +82,10 @@ class Header extends Component {
                   <Link to="/services">{t("nav.services")}</Link>
                 </li>
 
+                {/* <li>
+                  <Link to="/portfolio">{t("nav.portfolio")}</Link>
+                </li> */}
+
                 <li>
                   <Link to="/about">{t("nav.about")}</Link>
                 </li>

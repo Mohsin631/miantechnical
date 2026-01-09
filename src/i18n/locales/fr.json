@@ -2,6 +2,7 @@
   "nav": {
     "home": "Accueil",
     "services": "Services",
+    "portfolio": "Portfolio",
     "projects": "Projets",
     "about": "À propos",
     "contact": "Contact"
@@ -24,7 +25,7 @@
     },
     "copyright": "Mian Technical Incorporated. Tous droits réservés."
   },
-    "breadcrumb": {
+  "breadcrumb": {
     "home": "Accueil",
     "services": "Services",
     "about": "À propos",
@@ -115,14 +116,14 @@
     }
   },
   "services": {
-     "itServices": {
-        "title": "Services IT",
-        "description": "Donner aux entreprises les moyens d'agir avec des solutions IT innovantes qui favorisent l'efficacité, la sécurité et la croissance."
-      },
-      "engineeringServices": {
-        "title": "Services d'Ingénierie",
-        "description": "Fournir des solutions d'ingénierie de classe mondiale pour concevoir, optimiser et construire l'avenir."
-      },
+    "itServices": {
+      "title": "Services IT",
+      "description": "Donner aux entreprises les moyens d'agir avec des solutions IT innovantes qui favorisent l'efficacité, la sécurité et la croissance."
+    },
+    "engineeringServices": {
+      "title": "Services d'Ingénierie",
+      "description": "Fournir des solutions d'ingénierie de classe mondiale pour concevoir, optimiser et construire l'avenir."
+    },
     "itConsulting": {
       "title": "Conseil en IT",
       "description": "Conseil stratégique pour aligner votre feuille de route technologique avec les objectifs commerciaux, le budget et les délais de livraison.",
@@ -268,7 +269,6 @@
       ]
     }
   },
-  
   "about": {
     "pageTitle": "À propos de nous",
     "title": "À propos de nous",
@@ -360,7 +360,7 @@
       "suffix": "+"
     }
   },
-   "testimonials": {
+  "testimonials": {
     "testimonial1": {
       "text": "L'équipe a dépassé nos attentes ! Leurs solutions IT innovantes ont rationalisé nos processus et ont considérablement augmenté la productivité.",
       "name": "Alex Johnson",
@@ -421,12 +421,12 @@
       }
     }
   },
-   "contact2": {
+  "contact2": {
     "title": "Contactez-nous.",
     "description": "Connectons-nous ! Partagez vos coordonnées et nous vous répondrons dès que possible.",
     "imageAlt": "miantechnical"
   },
-"contactForm": {
+  "contactForm": {
     "successMessage": "Votre message a été envoyé avec succès. Nous vous contacterons bientôt.",
     "submitButton": "Envoyer maintenant",
     "fields": {

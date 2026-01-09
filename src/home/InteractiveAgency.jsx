@@ -3,6 +3,7 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 import { ProgressBar } from "react-bootstrap";
 import Helmet from "../component/common/Helmet";
+import VideoSecionComponent from "../home/VideoSection"
 import { Link } from "react-router-dom";
 import ScrollToTop from "react-scroll-up";
 import Slider from "react-slick";
@@ -269,7 +270,8 @@ const InteractiveAgency = () => {
       {/* End Service Area */}
 
       {/* Start Video Area */}
-      <div className="video-section">
+      <VideoSecionComponent />
+      {/* <div className="video-section">
         <div className="video-wrapper">
           <video className="background-video p-0" autoPlay loop muted playsInline>
             <source src={homeVideo} type="video/mp4" />
@@ -382,7 +384,7 @@ const InteractiveAgency = () => {
             }
           }
         `}</style>
-      </div>
+      </div> */}
       {/* End Video Area */}
 
       {/* Start Brand Area */}
