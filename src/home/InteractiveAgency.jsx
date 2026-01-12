@@ -20,7 +20,8 @@ import VideoModal from "../blocks/VideoModal";
 import BrandTwo from "../elements/BrandTwo";
 import homeVideo from "../assets/video/home-video.mp4";
 
-import about from "../assets/images/about/about-3.jpg";
+// import about from "../assets/images/about/about-3.jpg";
+import about from "../assets/images/about/about-img.jpg";
 import bgImg from "../assets/images/bg/bg-image-26.jpg";
 
 const InteractiveAgency = () => {
@@ -170,7 +171,7 @@ const InteractiveAgency = () => {
           <div className="container p-0">
             <div className="row row--35 align-items-center">
               <div className="col-lg-7">
-                <div className="about-inner inner">
+                <div className="xl:about-inner xl:inner py-0">
                   <div className="section-title">
                     <h2 className="title wrap">{t("home.about.title")}</h2>
                     <p className="description">{t("home.about.description")}</p>
@@ -238,7 +239,7 @@ const InteractiveAgency = () => {
         <div className="container p-0">
           <div className="row">
             <div className="col-lg-12">
-              <div className="section-title text-center mb--30">
+              <div className="section-title text-start xl:text-center mb-3 xl:mb--30">
                 <h2>{t("home.services.title")}</h2>
                 <p>{t("home.services.subtitle")}</p>
               </div>
@@ -387,15 +388,16 @@ const InteractiveAgency = () => {
       {/* End Video Area */}
 
       {/* Start Brand Area */}
-      <div className="rn-brand-area pb--120 pt--120 bg_color--1">
-        <div className="container p-0">
-          <div className="row">
-            <div className="col-lg-12">
+      <div className="rn-brand-area bg_color--1">
+        <div className="container-fluid p-0">
+          <div className="row g-0">
+            <div className="col-12">
               <BrandTwo />
             </div>
           </div>
         </div>
       </div>
+
       {/* End Brand Area */}
 
       {/* Start Back To Top */}

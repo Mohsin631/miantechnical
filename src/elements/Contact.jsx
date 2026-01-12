@@ -78,7 +78,7 @@ class Contact extends Component {
                   }`}
                 >
                   <div className="rn-address text-center">
-                    <div className="icon mx-auto mb-8 w-20 h-20 flex items-center justify-center rounded-full bg-gray-50 text-primary">
+                    <div className="icon mx-auto mb-8 w-20 h-20 flex items-center justify-center rounded-full bg-gray-50">
                       {info.icon}
                     </div>
                     <div className="inner">
@@ -129,15 +129,15 @@ class Contact extends Component {
         {/* End Contact Map */}
 
         {/* Start Brand Area */}
-        <div className="rn-brand-area brand-separation bg_color--5 ptb--120">
-          <div className="container">
-            <div className="row">
-              <div className="col-lg-12">
-                <BrandTwo />
-              </div>
+        <div className="rn-brand-area bg_color--1">
+        <div className="container-fluid p-0">
+          <div className="row g-0">
+            <div className="col-12">
+              <BrandTwo />
             </div>
           </div>
         </div>
+      </div>
         {/* End Brand Area */}
 
         {/* Start Back To Top */}

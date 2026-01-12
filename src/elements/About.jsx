@@ -12,7 +12,7 @@ import { FiChevronUp } from "react-icons/fi";
 import Header from "../component/header/Header";
 import Footer from "../component/footer/Footer";
 
-import about from "../assets/images/about/about-3.jpg";
+import about from "../assets/images/about/about-img.jpg";
 import findingImg from "../assets/images/about/finding-us-01.png";
 import teamImg1 from "../assets/images/team/team1.jpg";
 import teamImg2 from "../assets/images/team/team2.jpg";
@@ -67,13 +67,13 @@ const About = () => {
   ];
 
   const teamMembers = [
-    { 
-      img: teamImg1, 
+    {
+      img: teamImg1,
       name: t("about.team.member1.name"),
       role: t("about.team.member1.role")
     },
-    { 
-      img: teamImg2, 
+    {
+      img: teamImg2,
       name: t("about.team.member2.name"),
       role: t("about.team.member2.role")
     }
@@ -106,19 +106,21 @@ const About = () => {
                   </p>
                 </div>
                 <div className="row mt--30">
-                  <div className="col-lg-6 col-md-6">
-                    <div className="about-us-list">
+                  <div className="col-lg-6 col-md-6 d-flex">
+                    <div className="about-us-list h-full w-full border border-gray-200 rounded-xl p-6 hover:shadow-md transition">
                       <h3 className="title">{t("about.mission.title")}</h3>
                       <p>{t("about.mission.description")}</p>
                     </div>
                   </div>
-                  <div className="col-lg-6 col-md-6">
-                    <div className="about-us-list">
+
+                  <div className="col-lg-6 col-md-6 d-flex">
+                    <div className="about-us-list h-full w-full border border-gray-200 rounded-xl p-6 hover:shadow-md transition">
                       <h3 className="title">{t("about.vision.title")}</h3>
                       <p>{t("about.vision.description")}</p>
                     </div>
                   </div>
                 </div>
+
               </div>
             </div>
           </div>
@@ -157,7 +159,7 @@ const About = () => {
       </div>
 
       {/* Why Choose Us */}
-      <div className="rn-about-area ptb--120 bg_color--1">
+      <div className="rn-about-area ptb--120 bg_color--5">
         <div className="container">
           <div className="section-title text-center mb--50">
             <h2 className="title">{t("about.whyChooseUs.title")}</h2>
@@ -214,10 +216,10 @@ const About = () => {
           <div className="absolute top-0 right-0 w-64 h-64 bg-yellow-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000"></div>
           <div className="absolute -bottom-8 left-20 w-64 h-64 bg-pink-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000"></div>
         </div>
-        
+
         <div className="container relative z-10">
           <div className="text-center mb-12 md:mb-4">
-          
+
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 dark:text-white mb-4">
               {t("about.technologies.title")}
               <span className="block w-16 h-1 bg-gradient-to-r from-red-200 to-red-500 mx-auto mt-4 rounded-full"></span>
@@ -226,11 +228,11 @@ const About = () => {
               {t("about.technologies.subtitle")}
             </p>
           </div>
-          
+
           <div className="mb-12">
             <Technologies />
           </div>
-          
+
         </div>
       </div>
 
