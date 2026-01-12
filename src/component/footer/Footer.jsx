@@ -14,7 +14,7 @@ const Footer = () => {
       <footer className="bg-black text-white">
         {/* Main Footer */}
         <div className="mx-auto max-w-7xl px-6 py-16">
-          <div className="grid grid-cols-1 gap-10 md:grid-cols-3">
+          <div className="grid grid-cols-1 gap-20 md:grid-cols-3">
 
             {/* Left: Logo & Description */}
             <div className="space-y-4">

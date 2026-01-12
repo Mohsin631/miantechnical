@@ -291,11 +291,13 @@ class CreativeAgency extends Component {
         <FooterTwo />
         {/* End Footer Style  */}
         {/* Start Back To Top */}
-        <div className="backto-top">
-          <ScrollToTop showUnder={160}>
-            <FiChevronUp />
-          </ScrollToTop>
-        </div>
+       <div className="backto-top fixed bottom-8 right-8 z-50">
+        <ScrollToTop showUnder={160}>
+          <div className="w-12 h-12 rounded-full bg-gradient-to-r from-gray-800 to-gray-900 shadow-lg hover:shadow-xl transition-all duration-300 flex items-center justify-center hover:scale-105 active:scale-95">
+            <FiChevronUp className="text-white text-xl" />
+          </div>
+        </ScrollToTop>
+      </div>
         {/* End Back To Top */}
       </Fragment>
     );

@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { withTranslation } from "react-i18next";
 import ContactForm from "./ContactForm";
 
-import about from "../../assets/images/about/contact-main.png";
+import about from "../../assets/images/about/contact-illustration.png";
 
 class ContactTwo extends Component {
   render() {
@@ -10,8 +10,8 @@ class ContactTwo extends Component {
     
     return (
       <div className="contact-form--1">
-        <div className="container">
-          <div className="row row--35 align-items-start">
+        <div className="md:px-12 xl:px-20">
+          <div className="row row--35 align-items-start px-3">
             <div className="col-lg-6 order-2 order-lg-1">
               <div className="section-title text-left mb--50">
                 <h2 className="title">{t("contact2.title")}</h2>
@@ -23,9 +23,13 @@ class ContactTwo extends Component {
                 <ContactForm />
               </div>
             </div>
-            <div className="col-lg-6 order-1 order-lg-2">
+            <div className="col-lg-1 order-1 order-lg-2 self-end">
               <div className="thumbnail mb_md--30 mb_sm--30">
-                <img src={about} alt={t("contact2.imageAlt")} />
+              </div>
+            </div>
+            <div className="col-lg-5 order-1 order-lg-2 self-end">
+              <div className="mb_md--30 mb_sm--30">
+                <img src={about} alt={t("contact2.imageAlt")} className="xl:w-[600px] md:w-[400px]" />
               </div>
             </div>
           </div>

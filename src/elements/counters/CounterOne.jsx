@@ -32,13 +32,13 @@ const CounterOne = () => {
   ];
 
   return (
-    <div className="row">
+    <div className="row px-3">
       {Data.map((value, index) => (
         <div
-          className="counterup_style--1 col-lg-4 col-md-4 col-sm-6 col-12 text-center"
+          className="col-lg-4 col-md-4 col-sm-6 col-12  md:text-center xl:text-center"
           key={index}
         >
-          <h5 className="counter theme-gradient">
+          <h5 className="text-[40px] md:text-[60px] xl:text-[80px] theme-gradient  md:text-center xl:text-center m-0">
             <VisibilitySensor
               onChange={onVisibilityChange}
               offset={{ top: 10 }}
@@ -48,7 +48,7 @@ const CounterOne = () => {
             </VisibilitySensor>
             {value.suffix}
           </h5>
-          <p className="description">{value.countTitle}</p>
+          <p className="mb-3">{value.countTitle}</p>
         </div>
       ))}
     </div>

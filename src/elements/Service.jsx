@@ -96,6 +96,7 @@ const Service = () => {
       slug: "project-management-consultancy",
     },
   ];
+
   return (
     <React.Fragment>
       <PageHelmet pageTitle="Services" />
@@ -111,23 +112,22 @@ const Service = () => {
 
       {/* IT Services Section */}
       <div className="service-area ptb--120 bg_color--1">
-        <div className="container">
-          <div className="row">
+        <div className="md:px-12 xl:px-20">
+          <div className="row px-3">
             <div className="col-lg-12">
-        <div className="section-title text-center mb--30">
-          <h2>{t("services.itServices.title")}</h2>
-          <p>{t("services.itServices.description")}</p>
-        </div>
-      </div>
+              <div className="section-title md:text-center xl:text-center mb-3 xl:mb--30">
+                <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 sm:mb-6 leading-tight">{t("services.itServices.title")}</h1>
+                <p>{t("services.itServices.description")}</p>
+              </div>
+            </div>
           </div>
-          <div className="row service-one-wrapper">
-            {ITServices.map((val, i) => (
-              <div
-                className="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12"
-                key={i}
-              >
-                <a href={`/services/${val.slug}`}>
-                  <div className="service service__style--2">
+
+          {/*  ONLY CHANGED THIS PART: grid wrapper + cards */}
+          <div className="row service-one-wrapper px-3">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-4 w-full px-3">
+              {ITServices.map((val, i) => (
+                <a key={i} href={`/services/${val.slug}`} className="block h-full">
+                  <div className="service service__style--2 bg-gray-100 h-full">
                     <div className="icon">{val.icon}</div>
                     <div className="content">
                       <h3 className="title">{val.title}</h3>
@@ -135,8 +135,8 @@ const Service = () => {
                     </div>
                   </div>
                 </a>
-              </div>
-            ))}
+              ))}
+            </div>
           </div>
         </div>
       </div>
@@ -144,23 +144,22 @@ const Service = () => {
 
       {/* Engineering Services Section */}
       <div className="service-area ptb--120 bg_color--5">
-        <div className="container">
-          <div className="row">
+        <div className="md:px-12 xl:px-20">
+          <div className="row px-3">
             <div className="col-lg-12">
-        <div className="section-title text-center mb--30">
-          <h2>{t("services.engineeringServices.title")}</h2>
-          <p>{t("services.engineeringServices.description")}</p>
-        </div>
-      </div>
+              <div className="section-title md:text-center xl:text-center mb-3 xl:mb--30">
+                <h2>{t("services.engineeringServices.title")}</h2>
+                <p>{t("services.engineeringServices.description")}</p>
+              </div>
+            </div>
           </div>
-          <div className="row service-one-wrapper">
-            {EngineeringServices.map((val, i) => (
-              <div
-                className="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12"
-                key={i}
-              >
-                <a href={`/services/${val.slug}`}>
-                  <div className="service service__style--2">
+
+          {/*  ONLY CHANGED THIS PART: grid wrapper + cards */}
+          <div className="row service-one-wrapper px-3">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-4 w-full px-3">
+              {EngineeringServices.map((val, i) => (
+                <a key={i} href={`/services/${val.slug}`} className="block h-full">
+                  <div className="service service__style--2 bg-gray-100 h-full">
                     <div className="icon">{val.icon}</div>
                     <div className="content">
                       <h3 className="title">{val.title}</h3>
@@ -168,17 +167,19 @@ const Service = () => {
                     </div>
                   </div>
                 </a>
-              </div>
-            ))}
+              ))}
+            </div>
           </div>
         </div>
       </div>
       {/* End Engineering Services Section */}
 
       {/* Back To Top */}
-      <div className="backto-top">
+      <div className="backto-top fixed bottom-8 right-8 z-50">
         <ScrollToTop showUnder={160}>
-          <FiChevronUp />
+          <div className="w-12 h-12 rounded-full bg-gradient-to-r from-gray-800 to-gray-900 shadow-lg hover:shadow-xl transition-all duration-300 flex items-center justify-center hover:scale-105 active:scale-95">
+            <FiChevronUp className="text-white text-xl" />
+          </div>
         </ScrollToTop>
       </div>
       {/* End Back To Top */}

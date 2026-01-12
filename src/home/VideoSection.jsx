@@ -27,10 +27,10 @@ const VideoSection = () => {
 
       {/* Content */}
       <div className="relative z-10 h-full flex text-center items-center justify-center px-4 sm:px-6 md:px-8">
-        <div className="max-w-4xl w-full">
+        <div className="max-w-7xl w-full">
           <div className="bg-black/40 backdrop-blur-md rounded-2xl md:rounded-3xl p-6 md:p-10 lg:p-12 shadow-2xl border border-white/10 mx-auto">
             {/* Title */}
-            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4 sm:mb-6 leading-tight">
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4 sm:mb-6 leading-tight">
               {t("home.video.title")}
             </h1>
             

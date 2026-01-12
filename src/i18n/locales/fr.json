@@ -113,6 +113,9 @@
       "subtitle": "Plongez dans des visuels percutants et une performance fluide",
       "buttonText": "Commencer",
       "fallback": "Votre navigateur ne prend pas en charge la vidéo."
+    },
+    "process": {
+      "workingProcess": "Notre Processus de Travail"
     }
   },
   "services": {

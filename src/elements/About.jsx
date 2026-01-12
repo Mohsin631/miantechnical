@@ -12,7 +12,7 @@ import { FiChevronUp } from "react-icons/fi";
 import Header from "../component/header/Header";
 import Footer from "../component/footer/Footer";
 
-import about from "../assets/images/about/about-img.jpg";
+import about from "../assets/images/about/about-img-png.png";
 import findingImg from "../assets/images/about/finding-us-01.png";
 import teamImg1 from "../assets/images/team/team1.jpg";
 import teamImg2 from "../assets/images/team/team2.jpg";
@@ -90,8 +90,8 @@ const About = () => {
 
       {/* About Section */}
       <div className="rn-about-area ptb--120 bg_color--1">
-        <div className="container">
-          <div className="row row--35 align-items-center">
+        <div className="md:px-12 xl:px-20">
+          <div className="row row--35 align-items-center px-3">
             <div className="col-lg-5">
               <div className="thumbnail">
                 <img className="w-100" src={about} alt={t("about.whoWeAre.imageAlt")} />
@@ -99,8 +99,8 @@ const About = () => {
             </div>
             <div className="col-lg-7">
               <div className="about-inner inner">
-                <div className="section-title mb--20">
-                  <h2 className="title">{t("about.whoWeAre.title")}</h2>
+                <div className="section-title">
+                  <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 sm:mb-6 leading-tight">{t("about.whoWeAre.title")}</h1>
                   <p className="description">
                     {t("about.whoWeAre.description")}
                   </p>
@@ -113,7 +113,7 @@ const About = () => {
                     </div>
                   </div>
 
-                  <div className="col-lg-6 col-md-6 d-flex">
+                  <div className="col-lg-6 col-md-6 d-flex mt-3">
                     <div className="about-us-list h-full w-full border border-gray-200 rounded-xl p-6 hover:shadow-md transition">
                       <h3 className="title">{t("about.vision.title")}</h3>
                       <p>{t("about.vision.description")}</p>
@@ -129,29 +129,31 @@ const About = () => {
 
       {/* Our Core Values */}
       <div className="rn-about-area ptb--120 bg_color--5">
-        <div className="container">
-          <div className="section-title text-center mb--50">
-            <h2 className="title">{t("about.coreValues.title")}</h2>
+        <div className="md:px-12 xl:px-20">
+          <div className="section-title md:text-center xl:text-center mb--50 px-3">
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 sm:mb-6 leading-tight">{t("about.coreValues.title")}</h1>
             <p>{t("about.coreValues.subtitle")}</p>
           </div>
-          <div className="row">
+          <div className="row px-3">
             {coreValues.map((value, i) => (
-              <div className="col-lg-3 col-md-6 col-sm-6" key={i}>
-                <div className="about-us-list text-center">
-                  <h3 className="title">{value.title}</h3>
-                  <p>{value.description}</p>
+              <div className="col-lg-3 col-md-6 col-sm-6 d-flex mb-3" key={i}>
+                <div className="w-full h-full p-4 rounded-xl bg-red-600 text-white md:bg-transparent md:text-gray-900 xl:bg-transparent xl:text-black md:text-center xl:text-center shadow-sm md:shadow-none ">
+                  <h3 className="text-white/90 md:text-gray-600">{value.title}</h3>
+                  <p className="text-white/90 md:text-gray-600">{value.description}</p>
                 </div>
               </div>
             ))}
           </div>
+
+
         </div>
       </div>
 
       {/* Counters */}
       <div className="rn-counterup-area pb--120 pt--120 bg_color--1">
-        <div className="container text-center">
-          <div className="section-title mb--40">
-            <h2 className="title">{t("about.achievements.title")}</h2>
+        <div className="md:px-12 xl:px-20 md:text-center xl:text-center">
+          <div className="section-title mb--40 px-3">
+             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 sm:mb-6 leading-tight">{t("about.achievements.title")}</h1>
             <p>{t("about.achievements.subtitle")}</p>
           </div>
           <CounterOne />
@@ -160,15 +162,15 @@ const About = () => {
 
       {/* Why Choose Us */}
       <div className="rn-about-area ptb--120 bg_color--5">
-        <div className="container">
-          <div className="section-title text-center mb--50">
-            <h2 className="title">{t("about.whyChooseUs.title")}</h2>
+        <div className="md:px-12 xl:px-20">
+          <div className="section-title md:text-center xl:text-center mb--50 px-3">
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 sm:mb-6 leading-tight">{t("about.whyChooseUs.title")}</h1>
             <p>{t("about.whyChooseUs.subtitle")}</p>
           </div>
-          <div className="row">
+          <div className="row px-3">
             {whyChooseUs.map((item, i) => (
               <div className="col-lg-3 col-md-6 col-sm-6" key={i}>
-                <div className="about-us-list text-center">
+                <div className="about-us-list xl:text-center md:text-center">
                   <h3 className="title">{item.title}</h3>
                   <p>{item.description}</p>
                 </div>
@@ -180,12 +182,12 @@ const About = () => {
 
       {/* Team Section */}
       <div className="rn-team-area bg_color--1 ptb--120">
-        <div className="container">
-          <div className="section-title text-center mb--40">
-            <h2 className="title">{t("about.team.title")}</h2>
+        <div className="md:px-12 xl:px-20">
+          <div className="section-title md:text-center xl:text-center mb--40 px-3">
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 sm:mb-6 leading-tight">{t("about.team.title")}</h1>
             <p>{t("about.team.subtitle")}</p>
           </div>
-          <div className="row my-team">
+          <div className="row my-team px-3">
             {teamMembers.map((member, i) => (
               <div className="col-lg-4 col-md-6 col-sm-6 col-12" key={i}>
                 <div className="team">
@@ -244,9 +246,11 @@ const About = () => {
       </div>
 
       {/* Back To Top */}
-      <div className="backto-top">
+      <div className="backto-top fixed bottom-8 right-8 z-50">
         <ScrollToTop showUnder={160}>
-          <FiChevronUp />
+          <div className="w-12 h-12 rounded-full bg-gradient-to-r from-gray-800 to-gray-900 shadow-lg hover:shadow-xl transition-all duration-300 flex items-center justify-center hover:scale-105 active:scale-95">
+            <FiChevronUp className="text-white text-xl" />
+          </div>
         </ScrollToTop>
       </div>
 

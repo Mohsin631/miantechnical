@@ -9,7 +9,7 @@ const CTASection = () => {
     <section className="modern-cta">
       <div className="cta-overlay">
         <div className="cta-content">
-          <h2> {t("footer.cta.boxTitle")}</h2>
+          <h1 className="text-3xl sm:text-4xl lg:text-5xl text-white font-bold mb-4 sm:mb-6 leading-tight"> {t("footer.cta.boxTitle")}</h1>
           <p> {t("footer.cta.boxSubtitle")}</p>
           <a href="/contact" className="cta-btn"> {t("footer.cta.btnText")}</a>
         </div>

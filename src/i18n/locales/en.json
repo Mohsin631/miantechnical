@@ -113,6 +113,9 @@
       "subtitle": "Immerse yourself in high-impact visuals and seamless performance",
       "buttonText": "Get Started",
       "fallback": "Your browser does not support the video tag."
+    },
+    "process": {
+      "workingProcess": "Our Working Process"
     }
   },
   "services": {

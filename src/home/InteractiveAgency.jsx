@@ -21,7 +21,7 @@ import BrandTwo from "../elements/BrandTwo";
 import homeVideo from "../assets/video/home-video.mp4";
 
 // import about from "../assets/images/about/about-3.jpg";
-import about from "../assets/images/about/about-img.jpg";
+import about from "../assets/images/about/about-img-png.png";
 import bgImg from "../assets/images/bg/bg-image-26.jpg";
 
 const InteractiveAgency = () => {
@@ -134,7 +134,7 @@ const InteractiveAgency = () => {
                     <div className={`${value.textPosition}`}>
                       {value.category ? <span>{value.category}</span> : ""}
                       {value.title ? (
-                        <h1 className="title  wrap text-4xl md:text-7xl xl:text-7xl 2xl:text-7xl max-w-5xl text-white py-1 px-3">{value.title}</h1>
+                        <h1 className="title wrap text-4xl md:text-7xl xl:text-7xl 2xl:text-7xl max-w-5xl text-white py-1 px-3">{value.title}</h1>
                       ) : (
                         ""
                       )}
@@ -168,12 +168,12 @@ const InteractiveAgency = () => {
       {/* Start About Area */}
       <div className="rn-about-area ptb--120 bg_color--1">
         <div className="rn-about-wrapper">
-          <div className="container p-0">
-            <div className="row row--35 align-items-center">
-              <div className="col-lg-7">
+          <div className=" md:px-12 xl:px-20">
+            <div className="row row--35 align-items-center px-3">
+              <div className="col-lg-6">
                 <div className="xl:about-inner xl:inner py-0">
                   <div className="section-title">
-                    <h2 className="title wrap">{t("home.about.title")}</h2>
+                    <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 sm:mb-6 leading-tight">{t("home.about.title")}</h2>
                     <p className="description">{t("home.about.description")}</p>
                   </div>
 
@@ -189,7 +189,7 @@ const InteractiveAgency = () => {
                             <h6 className="title wrap">
                               {t("home.about.strengths.designUx")}
                             </h6>
-                            <ProgressBar now={92} />
+                            <ProgressBar now={92} className="rounded-pill overflow-hidden" />
                             <span className="label">92%</span>
                           </div>
 
@@ -197,7 +197,7 @@ const InteractiveAgency = () => {
                             <h6 className="title wrap">
                               {t("home.about.strengths.engineeringPM")}
                             </h6>
-                            <ProgressBar now={88} />
+                            <ProgressBar now={88} className="rounded-pill overflow-hidden"  />
                             <span className="label">88%</span>
                           </div>
 
@@ -205,7 +205,7 @@ const InteractiveAgency = () => {
                             <h6 className="title wrap">
                               {t("home.about.strengths.marketing")}
                             </h6>
-                            <ProgressBar now={84} />
+                            <ProgressBar now={84} className="rounded-pill overflow-hidden"  />
                             <span className="label">84%</span>
                           </div>
 
@@ -213,7 +213,7 @@ const InteractiveAgency = () => {
                             <h6 className="title wrap">
                               {t("home.about.strengths.softwareApps")}
                             </h6>
-                            <ProgressBar now={96} />
+                            <ProgressBar now={96} className="rounded-pill overflow-hidden"  />
                             <span className="label">96%</span>
                           </div>
                         </div>
@@ -223,7 +223,10 @@ const InteractiveAgency = () => {
                 </div>
               </div>
 
-              <div className="col-lg-5 mt_md--40 mt_sm--40">
+<div className="col-lg-2">
+               
+              </div>
+              <div className="col-lg-4">
                 <div className="thumbnail">
                   <img className="w-100" src={about} alt="About Images" />
                 </div>
@@ -236,25 +239,26 @@ const InteractiveAgency = () => {
 
       {/* Start Service Area */}
       <div className="service-area creative-service-wrapper pb--120 bg_color--1">
-        <div className="container p-0">
-          <div className="row">
+        <div className="md:px-12 xl:px-20">
+          <div className="row px-3">
             <div className="col-lg-12">
               <div className="section-title text-start xl:text-center mb-3 xl:mb--30">
-                <h2>{t("home.services.title")}</h2>
+                <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 sm:mb-6 leading-tight">{t("home.services.title")}</h1>
                 <p>{t("home.services.subtitle")}</p>
               </div>
             </div>
           </div>
 
-          <div className="row creative-service">
-            {ServiceList.map((val, i) => (
+          <div className="row creative-service px-3">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 w-full px-3">
+              {ServiceList.map((val, i) => (
               <div
-                className="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12"
+                className=""
                 key={i}
               >
                 {/* keeping your original tag to avoid affecting functionality */}
                 <a classname="text-center" href={`/services/${val.slug}`}>
-                  <div className="service service__style--2">
+                  <div className="service service__style--2 mt-2">
                     <div className="icon">{val.icon}</div>
                     <div className="content">
                       <h3 className="title wrap">{val.title}</h3>
@@ -264,6 +268,7 @@ const InteractiveAgency = () => {
                 </a>
               </div>
             ))}
+            </div>
           </div>
         </div>
       </div>
