@@ -23,6 +23,7 @@ import homeVideo from "../assets/video/home-video.mp4";
 // import about from "../assets/images/about/about-3.jpg";
 import about from "../assets/images/about/about-img-png.png";
 import bgImg from "../assets/images/bg/bg-image-26.jpg";
+import homeVid from "../assets/video/home-vid.mp4";
 
 const InteractiveAgency = () => {
   const { t } = useTranslation();
@@ -121,48 +122,58 @@ const InteractiveAgency = () => {
 
       {/* Start Slider Area */}
       <div className="slider-wrapper">
-        <div className="slider-activation">
-          {SlideList.map((value, index) => (
-            <div
-              className={`slide slide-style-2 d-flex align-items-center md:px-20 xl:px-20 2xl:px-20 bg_image ${value.bgImage}`}
-              key={index}
-              data-black-overlay="8"
-            >
-              <div className="">
-                <div className="row">
-                  <div className="col-lg-12">
-                    <div className={`${value.textPosition}`}>
-                      {value.category ? <span>{value.category}</span> : ""}
-                      {value.title ? (
-                        <h1 className="title wrap text-4xl md:text-7xl xl:text-7xl 2xl:text-7xl max-w-5xl text-white py-1 px-3">{value.title}</h1>
-                      ) : (
-                        ""
-                      )}
-                      {value.description ? (
-                        <p className="description text-1xl max-w-3xl text-white mb-3 py-3 px-3">{value.description}</p>
-                      ) : (
-                        ""
-                      )}
-                      {value.buttonText ? (
-                        <div className="slide-btn px-3">
-                          <a
-                            className="rn-button-style--2 btn-solid py-3"
-                            href={`${value.buttonLink}`}
-                          >
-                            {value.buttonText}
-                          </a>
-                        </div>
-                      ) : (
-                        ""
-                      )}
-                    </div>
+  <div className="slider-activation">
+    {SlideList.map((value, index) => (
+      <div
+        className={`slide slide-style-2 d-flex align-items-center md:px-20 xl:px-20 2xl:px-20 relative`}
+        key={index}
+      >
+        {/* Video Background */}
+        <div className="absolute inset-0 w-full h-full">
+          <video
+            className="w-full h-full object-cover"
+            autoPlay
+            loop
+            muted
+            playsInline
+          >
+            <source src={homeVid} type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+          
+          <div className="absolute inset-0 bg-black opacity-80"></div>
+        </div>
+
+        <div className="relative z-10 w-full">
+          <div className="row">
+            <div className="col-lg-12">
+              <div className={`${value.textPosition} text-white px-3`}>
+                {value.category ? <span>{value.category}</span> : ""}
+                {value.title ? (
+                  <h1 className="title wrap text-4xl md:text-7xl xl:text-7xl 2xl:text-7xl max-w-5xl text-white py-1">{value.title}</h1>
+                ) : (
+                  ""
+                )}
+                {value.description ? (
+                  <p className="description text-1xl max-w-3xl text-white mb-3 py-3">{value.description}</p>
+                ) : (
+                  ""
+                )}
+                {value.buttonText ? (
+                  <div className="slide-btn">
+                   <a href="/contact" className="cta-btn text-white"> {value.buttonText}</a>
                   </div>
-                </div>
+                ) : (
+                  ""
+                )}
               </div>
             </div>
-          ))}
+          </div>
         </div>
       </div>
+    ))}
+  </div>
+</div>
       {/* End Slider Area */}
 
       {/* Start About Area */}
